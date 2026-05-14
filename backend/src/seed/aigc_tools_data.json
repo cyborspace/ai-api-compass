@@ -1,0 +1,2481 @@
+{
+  "ontologyRid": "ri.aigc.main",
+  "categories": [
+    {
+      "name": "AI写作工具",
+      "slug": "ai写作工具",
+      "description": "文字创作、论文写作、公文撰写等AI工具"
+    },
+    {
+      "name": "AI绘画工具",
+      "slug": "ai绘画工具",
+      "description": "文生图、图片编辑、AI素材等工具"
+    },
+    {
+      "name": "AI视频生成",
+      "slug": "ai视频生成",
+      "description": "AI生成视频、数字人、换脸等工具"
+    },
+    {
+      "name": "AI生成PPT",
+      "slug": "ai生成ppt",
+      "description": "一键生成PPT、智能演示文稿工具"
+    },
+    {
+      "name": "AI设计工具",
+      "slug": "ai设计工具",
+      "description": "UI设计、海报设计、商品图等工具"
+    },
+    {
+      "name": "AI智能助手",
+      "slug": "ai智能助手",
+      "description": "对话助手、搜索引擎、聊天机器人等"
+    },
+    {
+      "name": "AI音乐生成",
+      "slug": "ai音乐生成",
+      "description": "AI作曲、AI音效、语音合成等工具"
+    },
+    {
+      "name": "Agents开发平台",
+      "slug": "agents开发平台",
+      "description": "AI Agent、低代码开发平台"
+    },
+    {
+      "name": "AI编程工具",
+      "slug": "ai编程工具",
+      "description": "AI编程助手、代码生成等工具"
+    },
+    {
+      "name": "AI应用接口API",
+      "slug": "ai应用接口api",
+      "description": "大模型API服务平台"
+    }
+  ],
+  "tools": [
+    {
+      "category": "AI写作工具",
+      "name": "蛙蛙写作",
+      "slug": "蛙蛙写作",
+      "url": "https://wawawriter.com/app/",
+      "description": "AI写小说，一键成文，AI漫剧",
+      "developer": "Wawawriter"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "千问-阿里AI助手",
+      "slug": "千问-阿里ai助手",
+      "url": "https://qwen.ai/",
+      "description": "通义千问最新模型体验入口",
+      "developer": "阿里"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "稿定AI文案",
+      "slug": "稿定ai文案",
+      "url": "https://www.gaoding.com/",
+      "description": "满血版DeepSeek驱动的AI文案生成工具",
+      "developer": "稿定"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "腾讯元宝",
+      "slug": "腾讯元宝",
+      "url": "https://yuanbao.tencent.com/",
+      "description": "DeepSeek+智能新体验，R1最新版！",
+      "developer": "Yuanbao"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "笔灵AI写作",
+      "slug": "笔灵ai写作",
+      "url": "https://ibiling.cn/",
+      "description": "3分钟生成论文初稿，一键降重降AI",
+      "developer": "笔灵AI"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "ima-PC端×OpenClaw",
+      "slug": "ima-pc端-openclaw",
+      "url": "https://ima.qq.com/",
+      "description": "连接第二大脑，灵感随时Claw",
+      "developer": "Ima"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "讯飞绘文",
+      "slug": "讯飞绘文",
+      "url": "https://turbodesk.xfyun.cn/",
+      "description": "选题、配图、成文，一站式创作平台",
+      "developer": "Turbodesk"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "AI论文-高质量",
+      "slug": "ai论文-高质量",
+      "url": "https://www.66paper.cn/",
+      "description": "10秒大纲，3分钟万字论文，包过查重",
+      "developer": "66paper"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "千笔AI论文",
+      "slug": "千笔ai论文",
+      "url": "https://www.qianbixiezuo.com/",
+      "description": "免费送万字写论文，降重降AI兑换码",
+      "developer": "Qianbixiezuo"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "Aibiye-Ai论文生成",
+      "slug": "aibiye-ai论文生成",
+      "url": "https://www.aibiye.com/",
+      "description": "Multimodal+Global Thought Chain语言模型",
+      "developer": "Aibiye"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "摄图AI写作",
+      "slug": "摄图ai写作",
+      "url": "https://ai.699pic.com/superai",
+      "description": "AI文章写作、论文生成、学术报告撰写",
+      "developer": "Ai"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "万能小in一键论文",
+      "slug": "万能小in一键论文",
+      "url": "https://xiaoin.com.cn/",
+      "description": "3分钟4万字130+应用场景",
+      "developer": "Xiaoin"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "FeelFish写小说",
+      "slug": "feelfish写小说",
+      "url": "https://www.feelfish.com/",
+      "description": "专为小说创作者打造的AI写作PC客户端",
+      "developer": "Feelfish"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "Paperpal",
+      "slug": "paperpal",
+      "url": "https://paperpal.cn/",
+      "description": "英文论文写作助手免费写作及润色AI工具",
+      "developer": "Paperpal"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "PaperFake AI写论文",
+      "slug": "paperfake-ai写论文",
+      "url": "https://paperfake.cn/",
+      "description": "一键AI生成3万字论文，查重率aigc率双重担保",
+      "developer": "Paperfake"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "Medpeer 自然科学基金",
+      "slug": "medpeer-自然科学基金",
+      "url": "https://product.medpeer.cn/",
+      "description": "75万+获批项目数据，智能析热点",
+      "developer": "Product"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "讯飞星火",
+      "slug": "讯飞星火",
+      "url": "https://xinghuo.xfyun.cn/",
+      "description": "讯飞星火AI助手，高性能AI语言模型",
+      "developer": "科大讯飞"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "小鱼AI写作",
+      "slug": "小鱼ai写作",
+      "url": "https://www.xiaoyuxiezuo.com/",
+      "description": "满足自媒体人和办公人写作创作的在线AI写作平台",
+      "developer": "Xiaoyuxiezuo"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "万彩AI",
+      "slug": "万彩ai",
+      "url": "https://ai.kezhan365.com/",
+      "description": "AI智能写作支持，AI换脸、照片数字人制作",
+      "developer": "Ai"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "AI内容管家",
+      "slug": "ai内容管家",
+      "url": "https://guanjia.seowhy.com/",
+      "description": "AI驱动的SEO挖词、写作、发布工具",
+      "developer": "Guanjia"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "慧言AI",
+      "slug": "慧言ai",
+      "url": "https://aigc.huiyan-ai.cn/",
+      "description": "一站式AI解决方案，全能聚合平台",
+      "developer": "Aigc"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "豆包AI写作助手",
+      "slug": "豆包ai写作助手",
+      "url": "https://www.doubao.com/",
+      "description": "智能对话助手，办公创作全能",
+      "developer": "字节跳动"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "智谱AI输入法",
+      "slug": "智谱ai输入法",
+      "url": "https://autoglm.zhipuai.cn/",
+      "description": "智能的AI语音输入工具",
+      "developer": "Autoglm"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "讯飞文书",
+      "slug": "讯飞文书",
+      "url": "https://gw.iflydocs.com/",
+      "description": "国产大模型AI公文写作工具",
+      "developer": "Gw"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "问小白",
+      "slug": "问小白",
+      "url": "https://www.wenxiaobai.com/",
+      "description": "简化用户日常生活的智能助手",
+      "developer": "Wenxiaobai"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "迅捷AI写作",
+      "slug": "迅捷ai写作",
+      "url": "https://www.aichat1234.com/",
+      "description": "AI写作助手，支持多种文体创作",
+      "developer": "Aichat1234"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "新华妙笔AI",
+      "slug": "新华妙笔ai",
+      "url": "https://miaobi.xinhuaskl.com/",
+      "description": "新华社推出的AI公文写作平台",
+      "developer": "Miaobi"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "橙篇",
+      "slug": "橙篇",
+      "url": "https://cp.baidu.com/",
+      "description": "百度橙篇AI写作平台",
+      "developer": "Cp"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "CopyDone-AI营销内容创作",
+      "slug": "copydone-ai营销内容创作",
+      "url": "https://copyai.cn/",
+      "description": "AI营销内容创作平台",
+      "developer": "Copyai"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "言笔AI",
+      "slug": "言笔ai",
+      "url": "https://www.yanbiai.com/",
+      "description": "AI工作流创作平台",
+      "developer": "Yanbiai"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "Writer",
+      "slug": "writer",
+      "url": "https://writer.com/",
+      "description": "AI写作平台",
+      "developer": "Writer"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "Grammarly",
+      "slug": "grammarly",
+      "url": "https://www.grammarly.com/",
+      "description": "AI英文写作助手",
+      "developer": "Grammarly"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "秘塔写作猫",
+      "slug": "秘塔写作猫",
+      "url": "https://xiezuocat.com/",
+      "description": "AI写作助手，论文纠错",
+      "developer": "Xiezuocat"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "Claude",
+      "slug": "claude",
+      "url": "https://claude.ai/",
+      "description": "Anthropic AI助手",
+      "developer": "Claude"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "ChatGPT",
+      "slug": "chatgpt",
+      "url": "https://chat.openai.com/",
+      "description": "OpenAI ChatGPT",
+      "developer": "Chat"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "Notion AI",
+      "slug": "notion-ai",
+      "url": "https://www.notion.so/product/ai",
+      "description": "Notion AI写作助手",
+      "developer": "Notion"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "FridayAI写作助手",
+      "slug": "fridayai写作助手",
+      "url": "https://www.heyfriday.cn/",
+      "description": "AI写作助手",
+      "developer": "Heyfriday"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "Tome",
+      "slug": "tome",
+      "url": "https://beta.tome.app/",
+      "description": "AI演示文稿和写作工具",
+      "developer": "Beta"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "HIX.AI",
+      "slug": "hix-ai",
+      "url": "https://hix.ai/",
+      "description": "AI写作助手",
+      "developer": "Hix"
+    },
+    {
+      "category": "AI写作工具",
+      "name": "百度文心一言",
+      "slug": "百度文心一言",
+      "url": "https://yiyan.baidu.com/",
+      "description": "百度文心一言AI助手",
+      "developer": "Yiyan"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "堆友AI绘画",
+      "slug": "堆友ai绘画",
+      "url": "https://d.design/ai/generate",
+      "description": "Alibaba Design打造的设计师全成长周期服务平台",
+      "developer": "D"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "稿定AI-文生图",
+      "slug": "稿定ai-文生图",
+      "url": "https://www.gaoding.com/",
+      "description": "AI绘图、AI设计、AI素材、图片处理等一站式免费AI创作平台",
+      "developer": "稿定"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "LiblibAI·哩布哩布AI",
+      "slug": "liblibai-哩布哩布ai",
+      "url": "https://www.liblib.art/",
+      "description": "一键使用顶尖图片生成模型",
+      "developer": "Liblib"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "可图AI绘画",
+      "slug": "可图ai绘画",
+      "url": "https://kolors.kuaishou.top/",
+      "description": "可灵AI旗下专业图片生成工具",
+      "developer": "Kolors"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "绘蛙AI-创意文生图",
+      "slug": "绘蛙ai-创意文生图",
+      "url": "https://www.ihuiwa.com/",
+      "description": "帮助用户快速生成商业摄影图片和吸引人的文案",
+      "developer": "Ihuiwa"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "巨日禄AI漫画",
+      "slug": "巨日禄ai漫画",
+      "url": "https://ai.jiuge3d.com/",
+      "description": "超多绚美风格的AI漫画视频创作平台",
+      "developer": "Ai"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "图星人AI生图",
+      "slug": "图星人ai生图",
+      "url": "https://www.turenscr.com/",
+      "description": "领先的AI生成+免费专业图库混视觉平台",
+      "developer": "Turenscr"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "LinkFox AI",
+      "slug": "linkfox-ai",
+      "url": "https://www.linkfox.com/",
+      "description": "AI绘图、商品图换背景、一键抠图",
+      "developer": "Linkfox"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "摄图AI画图",
+      "slug": "摄图ai画图",
+      "url": "https://ai.699pic.com/superai",
+      "description": "全方位AI图像工具服务",
+      "developer": "Ai"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "即梦AI图片生成",
+      "slug": "即梦ai图片生成",
+      "url": "https://jimeng.jianying.com/",
+      "description": "4.5最新模型，强化一致性、风格与图文响应",
+      "developer": "Jimeng"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "Openflow",
+      "slug": "openflow",
+      "url": "https://openflowai.cn/",
+      "description": "多功能的AI平台，行业特定的工作流优化",
+      "developer": "Openflowai"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "造点AI",
+      "slug": "造点ai",
+      "url": "https://zaodianai.com/",
+      "description": "为创作者带来图像与视频创作的全新体验",
+      "developer": "Zaodianai"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "包图AI文生图",
+      "slug": "包图ai文生图",
+      "url": "https://www.ibaotu.com/",
+      "description": "高效的AI图像生成工具",
+      "developer": "Ibaotu"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "Holopix AI",
+      "slug": "holopix-ai",
+      "url": "https://www.holopixai.com/",
+      "description": "为个人开发者，游戏美术工作者提供高效便捷的素材创作",
+      "developer": "Holopixai"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "吐司AI绘画",
+      "slug": "吐司ai绘画",
+      "url": "https://tusi.art/",
+      "description": "免费在线生图的AI模型分享社区",
+      "developer": "Tusi"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "触手AI绘画",
+      "slug": "触手ai绘画",
+      "url": "https://www.chushouai.com/",
+      "description": "多样化的AI辅助创作功能",
+      "developer": "Chushouai"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "妙话AI",
+      "slug": "妙话ai",
+      "url": "https://miaohua.ai/",
+      "description": "免费生成在抖音、小红书能火的图片",
+      "developer": "Miaohua"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "RunningHub",
+      "slug": "runninghub",
+      "url": "https://www.runninghub.cn/",
+      "description": "预装最新最全的ComfyUI节点",
+      "developer": "Runninghub"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "字加AI",
+      "slug": "字加ai",
+      "url": "https://zijia.cn/",
+      "description": "免费的字体服务平台+一键轻松换字",
+      "developer": "Zijia"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "炉米Lumi",
+      "slug": "炉米lumi",
+      "url": "https://lumi.aliyun.com/",
+      "description": "字节推出的为创作者提供一站式服务的平台",
+      "developer": "Lumi"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "Canva可画AI生图",
+      "slug": "canva可画ai生图",
+      "url": "https://www.canva.cn/",
+      "description": "输入包含主题、主体、颜色等内容的详细描述",
+      "developer": "Canva"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "Raphael AI",
+      "slug": "raphael-ai",
+      "url": "https://raphael.app/",
+      "description": "无需登录，可无限生成图像",
+      "developer": "Raphael"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "Midjourney",
+      "slug": "midjourney",
+      "url": "https://www.midjourney.com/",
+      "description": "AI图像生成工具",
+      "developer": "Midjourney"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "Stable Diffusion",
+      "slug": "stable-diffusion",
+      "url": "https://stability.ai/",
+      "description": "开源AI图像生成模型",
+      "developer": "Stability"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "DALL-E 3",
+      "slug": "dall-e-3",
+      "url": "https://openai.com/index/dall-e-3/",
+      "description": "OpenAI图像生成模型",
+      "developer": "OpenAI"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "Adobe Firefly",
+      "slug": "adobe-firefly",
+      "url": "https://www.adobe.com/sensei/generative-ai/firefly.html",
+      "description": "Adobe AI图像生成工具",
+      "developer": "Adobe"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "Ideogram",
+      "slug": "ideogram",
+      "url": "https://ideogram.ai/",
+      "description": "AI图像生成工具",
+      "developer": "Ideogram"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "Leonardo.ai",
+      "slug": "leonardo-ai",
+      "url": "https://leonardo.ai/",
+      "description": "AI游戏资产和图像生成平台",
+      "developer": "Leonardo"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "Bing Image Creator",
+      "slug": "bing-image-creator",
+      "url": "https://www.bing.com/images/create",
+      "description": "微软必应AI图像生成",
+      "developer": "Bing"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "通义万相",
+      "slug": "通义万相",
+      "url": "https://tongyi.aliyun.com/wanxiang",
+      "description": "阿里通义万相AI绘画",
+      "developer": "Tongyi"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "文心一格",
+      "slug": "文心一格",
+      "url": "https://yige.baidu.com/",
+      "description": "百度文心一格AI绘画",
+      "developer": "Yige"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "6pen Art",
+      "slug": "6pen-art",
+      "url": "https://6pen.art/",
+      "description": "AI艺术绘画生成平台",
+      "developer": "6pen"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "Tiamat",
+      "slug": "tiamat",
+      "url": "https://tiamat.com/",
+      "description": "AI艺术创作平台",
+      "developer": "Tiamat"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "画宇宙",
+      "slug": "画宇宙",
+      "url": "https://www.drawUniverse.com/",
+      "description": "AI绘画创作平台",
+      "developer": "Drawuniverse"
+    },
+    {
+      "category": "AI绘画工具",
+      "name": "触手AI",
+      "slug": "触手ai",
+      "url": "https://www.chushouai.com/",
+      "description": "AI绘画工具",
+      "developer": "Chushouai"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "堆友AI视频",
+      "slug": "堆友ai视频",
+      "url": "https://d.design/ai/video",
+      "description": "最新HappyHorse视频生成模型",
+      "developer": "D"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "扣子 – 视频创作",
+      "slug": "扣子-视频创作",
+      "url": "https://www.coze.cn/overview",
+      "description": "扣子视频工作流 - 深度集成自研Seedance视频生成模型",
+      "developer": "字节Coze"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "可灵AI电影级视频创作",
+      "slug": "可灵ai电影级视频创作",
+      "url": "https://klingai.com/",
+      "description": "快手推出的视频生成工具，可灵3.0模型",
+      "developer": "Klingai"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "绘蛙AI视频",
+      "slug": "绘蛙ai视频",
+      "url": "https://www.ihuiwa.com/workspace/ai-video/multi-img",
+      "description": "阿里推出的AI视频生成工具，图转视频，多图成片",
+      "developer": "Ihuiwa"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Liblib AI – 视频",
+      "slug": "liblib-ai-视频",
+      "url": "https://www.liblib.art/video-effect",
+      "description": "一键使用顶尖视频生成模型",
+      "developer": "Liblib"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "白日梦AI生成视频",
+      "slug": "白日梦ai生成视频",
+      "url": "https://aibrm.com/",
+      "description": "领先AI创作平台，可生成最长50分钟的视频",
+      "developer": "Aibrm"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "即梦桌面版(剪映)",
+      "slug": "即梦桌面版-剪映",
+      "url": "https://www.jianying.com/",
+      "description": "接入DeepSeek,AI文案创作,AI音乐创作,短视频创作",
+      "developer": "Jianying"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "即梦AI视频生成",
+      "slug": "即梦ai视频生成",
+      "url": "https://jimeng.jianying.com/ai-tool/home",
+      "description": "视频3.0精准响应，支持多镜头和运镜",
+      "developer": "Jimeng"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "有言-一键生成视频",
+      "slug": "有言-一键生成视频",
+      "url": "https://www.youyan3d.com/",
+      "description": "一站式AI视频创作，1200+免费3D数字人",
+      "developer": "Youyan3d"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "闪剪_AI视频剪辑",
+      "slug": "闪剪_ai视频剪辑",
+      "url": "https://shanjian.tv/",
+      "description": "AI智能视频剪辑工具，专注于数字人领域",
+      "developer": "Shanjian"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "VibeKnow",
+      "slug": "vibeknow",
+      "url": "https://vibeknow.com/",
+      "description": "AI驱动的知识视频制作平台",
+      "developer": "Vibeknow"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Haimeta",
+      "slug": "haimeta",
+      "url": "https://www.haimeta.com/",
+      "description": "一站式AI视频/图像创作平台",
+      "developer": "Haimeta"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "A9 AI",
+      "slug": "a9-ai",
+      "url": "https://a9app.cn/",
+      "description": "几分钟生成产品宣传视频",
+      "developer": "A9app"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "献丑AI",
+      "slug": "献丑ai",
+      "url": "https://xianchou.com/",
+      "description": "AI视频开源创作与爆款复刻垂直平台",
+      "developer": "Xianchou"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Flova AI",
+      "slug": "flova-ai",
+      "url": "https://www.flova.ai/",
+      "description": "人人都是自己的创意导演",
+      "developer": "Flova"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "云幕同声",
+      "slug": "云幕同声",
+      "url": "https://www.yunmuts.com/",
+      "description": "原声级视频翻译解决方案",
+      "developer": "Yunmuts"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "万兴天幕AI",
+      "slug": "万兴天幕ai",
+      "url": "https://www.tomoviee.cn/",
+      "description": "以一句话生成多模态内容为入口的AI平台",
+      "developer": "Tomoviee"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "包图视频",
+      "slug": "包图视频",
+      "url": "https://ibaotu.com/shipin/",
+      "description": "100万+视频、BGM、设计素材",
+      "developer": "Ibaotu"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "智小象Vivago",
+      "slug": "智小象vivago",
+      "url": "https://vivago.ai/zh/studio",
+      "description": "贴合国内网络环境、中文语境的AI视频工具",
+      "developer": "Vivago"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Nereo AI视频",
+      "slug": "nereo-ai视频",
+      "url": "https://www.nereo.io/",
+      "description": "多模型聚合+免费无门槛+极简操作的AI视频生成",
+      "developer": "Nereo"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "MagicLight",
+      "slug": "magiclight",
+      "url": "https://magiclight.ai/",
+      "description": "实现脚本生成-角色塑造-场景构建-视频合成的全自动化",
+      "developer": "Magiclight"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "讯飞智作-创意视频",
+      "slug": "讯飞智作-创意视频",
+      "url": "https://www.xfzhizuo.cn/video-editor",
+      "description": "语音合成、人脸建模、唇形预测、图形处理的AI视频工具",
+      "developer": "Xfzhizuo"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Sora",
+      "slug": "sora",
+      "url": "https://openai.com/sora",
+      "description": "OpenAI AI视频生成模型",
+      "developer": "OpenAI"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "海螺AI视频",
+      "slug": "海螺ai视频",
+      "url": "https://hailuoai.com/video",
+      "description": "字节AI视频生成工具",
+      "developer": "Hailuoai"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "腾讯混元AI视频",
+      "slug": "腾讯混元ai视频",
+      "url": "https://video.hunyuan.tencent.com/",
+      "description": "腾讯混元大模型AI视频生成",
+      "developer": "Video"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Vidu",
+      "slug": "vidu",
+      "url": "https://www.vidu.studio/",
+      "description": "AI视频生成工具",
+      "developer": "Vidu"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "PixVerse",
+      "slug": "pixverse",
+      "url": "https://pixverse.ai/",
+      "description": "AI视频生成平台",
+      "developer": "Pixverse"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "即创AI",
+      "slug": "即创ai",
+      "url": "https://aic.oceanengine.com/",
+      "description": "字节即创AI智能创作平台",
+      "developer": "Aic"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "MOKI",
+      "slug": "moki",
+      "url": "https://www.moki.cn/",
+      "description": "AI视频创作平台",
+      "developer": "Moki"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Stable Video",
+      "slug": "stable-video",
+      "url": "https://www.stablevideo.com/",
+      "description": "Stability AI视频生成工具",
+      "developer": "Stablevideo"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Pika Art",
+      "slug": "pika-art",
+      "url": "https://www.pika.art/",
+      "description": "AI视频生成工具",
+      "developer": "Pika"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Runway",
+      "slug": "runway",
+      "url": "https://runwayml.com/",
+      "description": "AI视频生成和编辑平台",
+      "developer": "Runwayml"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "HeyGen",
+      "slug": "heygen",
+      "url": "https://www.heygen.com/",
+      "description": "AI数字人视频生成平台",
+      "developer": "Heygen"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Synthesia",
+      "slug": "synthesia",
+      "url": "https://www.synthesia.io/",
+      "description": "AI视频生成平台",
+      "developer": "Synthesia"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Lumen5",
+      "slug": "lumen5",
+      "url": "https://lumen5.com/",
+      "description": "AI视频创作平台",
+      "developer": "Lumen5"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Kaiber",
+      "slug": "kaiber",
+      "url": "https://www.kaiber.ai/",
+      "description": "AI视频和动画生成工具",
+      "developer": "Kaiber"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Viggle",
+      "slug": "viggle",
+      "url": "https://www.viggle.ai/",
+      "description": "AI视频生成工具",
+      "developer": "Viggle"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Hedra",
+      "slug": "hedra",
+      "url": "https://www.hedra.com/",
+      "description": "AI视频角色生成平台",
+      "developer": "Hedra"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "艺映AI",
+      "slug": "艺映ai",
+      "url": "https://www.artink.art/",
+      "description": "AI视频生成工具",
+      "developer": "Artink"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "清影2.0",
+      "slug": "清影2-0",
+      "url": "https://jimeng.jianying.com/",
+      "description": "即梦AI视频生成工具",
+      "developer": "Jimeng"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "WanX2.1",
+      "slug": "wanx2-1",
+      "url": "https://wan21ai.com/zh",
+      "description": "AI视频生成模型",
+      "developer": "Wan21ai"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Fliki",
+      "slug": "fliki",
+      "url": "https://fliki.ai/",
+      "description": "AI视频生成工具",
+      "developer": "Fliki"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "InVideo",
+      "slug": "invideo",
+      "url": "https://invideo.io/",
+      "description": "AI在线视频制作平台",
+      "developer": "Invideo"
+    },
+    {
+      "category": "AI视频生成",
+      "name": "Wonder Dynamics",
+      "slug": "wonder-dynamics",
+      "url": "https://www.wonderdynamics.com/",
+      "description": "AI视频特效和角色动画工具",
+      "developer": "Wonderdynamics"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "扣子 – PPT制作",
+      "slug": "扣子-ppt制作",
+      "url": "https://www.coze.cn/overview",
+      "description": "职场AI，就用扣子！",
+      "developer": "字节Coze"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "稿定PPT",
+      "slug": "稿定ppt",
+      "url": "https://www.gaoding.com/ppt",
+      "description": "稿定推出的PPT模版资源库",
+      "developer": "稿定"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "iSlide PPT",
+      "slug": "islide-ppt",
+      "url": "https://www.islide.cc/",
+      "description": "AI赋能PPT制作工具，支持AI一键生成",
+      "developer": "Islide"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "博思AIPPT",
+      "slug": "博思aippt",
+      "url": "https://pptgo.cn/",
+      "description": "AI一键生成PPT，新一代的在线AI生成PPT软件",
+      "developer": "Pptgo"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "ChatPPT",
+      "slug": "chatppt",
+      "url": "https://chatppt.cn/",
+      "description": "AI驱动的PPT生成工具，对话式交互",
+      "developer": "Chatppt"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "咔片PPT",
+      "slug": "咔片ppt",
+      "url": "https://www.cappt.cc/",
+      "description": "AI助力，做PPT更简单！",
+      "developer": "Cappt"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "全智能Ai一键生成PPT",
+      "slug": "全智能ai一键生成ppt",
+      "url": "https://www.aippt.cn/",
+      "description": "AiPPT智能辅助PPT制作工具",
+      "developer": "Aippt"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "办公小浣熊",
+      "slug": "办公小浣熊",
+      "url": "https://www.xiaohuanxiong.com/",
+      "description": "数据分析、生成PPT，知识库问答、文案生成、任务规划",
+      "developer": "Xiaohuanxiong"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "笔格AIPPT – Agent模式",
+      "slug": "笔格aippt-agent模式",
+      "url": "https://bigppt.cn/",
+      "description": "全新Agent功能上线！智能引导理清思路",
+      "developer": "Bigppt"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "Pi-智能演示文档",
+      "slug": "pi-智能演示文档",
+      "url": "https://pi.deepvinci.tech/",
+      "description": "AI-native的互动内容创作与分享平台",
+      "developer": "Pi"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "觅知网AI+PPT模板",
+      "slug": "觅知网ai-ppt模板",
+      "url": "https://www.51miz.com/ppt/",
+      "description": "AIPPT与优质模板相融合的智能办公平台",
+      "developer": "51miz"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "笔灵AI生成答辩PPT",
+      "slug": "笔灵ai生成答辩ppt",
+      "url": "https://ibiling.cn/ppt",
+      "description": "答辩PPT、千字自述稿一键生成",
+      "developer": "笔灵AI"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "爱设计PPT",
+      "slug": "爱设计ppt",
+      "url": "https://ppt.isheji.com/",
+      "description": "AI驱动的PPT制作神器",
+      "developer": "Ppt"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "歌者PPT",
+      "slug": "歌者ppt",
+      "url": "https://pro.gezhe.com/",
+      "description": "一键智能生成，内置海量模板",
+      "developer": "Pro"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "二狗 AI PPT",
+      "slug": "二狗-ai-ppt",
+      "url": "https://www.2dogppt.com/",
+      "description": "为中式职场场景打造的AI PPT生成工具",
+      "developer": "2dogppt"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "迅捷AIPPT",
+      "slug": "迅捷aippt",
+      "url": "https://www.xunjieppt.com/",
+      "description": "AI演示文稿制作工具",
+      "developer": "Xunjieppt"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "课灵PPT",
+      "slug": "课灵ppt",
+      "url": "https://www.classppt.cn/",
+      "description": "多源素材输入、高度个性化定制、全场景适配",
+      "developer": "Classppt"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "讯飞智文",
+      "slug": "讯飞智文",
+      "url": "https://zhiwen.xfyun.cn/",
+      "description": "一键生成PPT和Word",
+      "developer": "Zhiwen"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "VoxDeck",
+      "slug": "voxdeck",
+      "url": "https://www.voxdeck.ai/",
+      "description": "专注于AI演示文稿制作领域的平台",
+      "developer": "Voxdeck"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "PPT百科",
+      "slug": "ppt百科",
+      "url": "https://www.pptwiki.com/",
+      "description": "基于人工智能技术的在线PPT生成工具",
+      "developer": "Pptwiki"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "美图LivePPT",
+      "slug": "美图liveppt",
+      "url": "https://www.designkit.com/ppt/",
+      "description": "免费在线AI生成PPT设计工具",
+      "developer": "Designkit"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "塔猫ChatPPT",
+      "slug": "塔猫chatppt",
+      "url": "https://ppt.tamao.fun/",
+      "description": "仅需一句话，智能生成整套PPT文件",
+      "developer": "Ppt"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "Gamma",
+      "slug": "gamma",
+      "url": "https://gamma.app/",
+      "description": "AI驱动的演示文稿生成工具",
+      "developer": "Gamma"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "Slidesgo",
+      "slug": "slidesgo",
+      "url": "https://slidesgo.com/",
+      "description": "AI PPT模板和演示文稿生成工具",
+      "developer": "Slidesgo"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "Beautiful.ai",
+      "slug": "beautiful-ai",
+      "url": "https://www.beautiful.ai/",
+      "description": "AI演示文稿设计工具",
+      "developer": "Beautiful"
+    },
+    {
+      "category": "AI生成PPT",
+      "name": "Canva可画",
+      "slug": "canva可画",
+      "url": "https://www.canva.cn/",
+      "description": "在线设计平台，支持AI生成PPT",
+      "developer": "Canva"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "堆友AI设计",
+      "slug": "堆友ai设计",
+      "url": "https://d.design/",
+      "description": "阿里巴巴集团旗下设计师团队开发的集成了人工智能技术的在线设计服务平台",
+      "developer": "D"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "稿定AI设计",
+      "slug": "稿定ai设计",
+      "url": "https://www.gaoding.com/",
+      "description": "国内知名在线AI设计作图工具&新媒体人必备素材库",
+      "developer": "稿定"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "XFUN AIGC智能包装设计平台",
+      "slug": "xfun-aigc智能包装设计平台",
+      "url": "https://xfun.design/",
+      "description": "智能包装设计平台",
+      "developer": "Xfun"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "墨刀AI",
+      "slug": "墨刀ai",
+      "url": "https://modao.cc/feature/ai",
+      "description": "AI秒生原型稿",
+      "developer": "Modao"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "志设AI",
+      "slug": "志设ai",
+      "url": "https://www.zs9.com/",
+      "description": "一站式AI设计平台，集AI生图+在线设计+素材交易+收益分成于一体",
+      "developer": "Zs9"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "Pixso AI生成设计稿",
+      "slug": "pixso-ai生成设计稿",
+      "url": "https://ai.pixso.cn/",
+      "description": "AI赋能+专业工具+协作生态的一体化解决方案",
+      "developer": "Ai"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "星流AI",
+      "slug": "星流ai",
+      "url": "https://www.xingliu.art/",
+      "description": "LiblibAI打造的一站式多模态AI设计Agent",
+      "developer": "Xingliu"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "易企秀-小易AI",
+      "slug": "易企秀-小易ai",
+      "url": "https://ai.eqxiu.com/",
+      "description": "小易AI智能设计创作神器",
+      "developer": "Ai"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "PagePop",
+      "slug": "pagepop",
+      "url": "https://www.pagepop.cn/",
+      "description": "一站式AI创作和设计平台",
+      "developer": "Pagepop"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "呜哩",
+      "slug": "呜哩",
+      "url": "https://wuli.art/generate",
+      "description": "阿里巴巴旗下创意设计生产力平台",
+      "developer": "Wuli"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "MoPNG设计助手",
+      "slug": "mopng设计助手",
+      "url": "https://mopng.cn/",
+      "description": "以无损抠图去背景为核心功能的在线设计工具",
+      "developer": "Mopng"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "包图-AIGC设计素材",
+      "slug": "包图-aigc设计素材",
+      "url": "https://ibaotu.com/tupian/shuziyishu.html",
+      "description": "1.5亿高清素材,AIGC素材,免费下载！",
+      "developer": "Ibaotu"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "UXbot",
+      "slug": "uxbot",
+      "url": "https://www.uxbot.cn/",
+      "description": "人工智能为核心引擎的视觉设计与交互式原型生成工具",
+      "developer": "Uxbot"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "Refore 网页转设计",
+      "slug": "refore-网页转设计",
+      "url": "https://reforeai.cn/",
+      "description": "加速产品UI设计迭代的工具",
+      "developer": "Reforeai"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "稿定AI",
+      "slug": "稿定ai",
+      "url": "https://www.gaoding.art/",
+      "description": "从灵感到成品的全链路创意解决方案",
+      "developer": "稿定"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "美图设计室",
+      "slug": "美图设计室",
+      "url": "https://www.designkit.com/",
+      "description": "美图秀秀旗下的智能平面设计在线协作平台",
+      "developer": "Designkit"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "创客贴",
+      "slug": "创客贴",
+      "url": "https://www.chuangkit.com/",
+      "description": "多平台图形编辑和平面设计工具",
+      "developer": "Chuangkit"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "PicDoc",
+      "slug": "picdoc",
+      "url": "https://www.picdoc.cn/",
+      "description": "AI一键生成专业图表、思维导图、结构图、PPT图例",
+      "developer": "Picdoc"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "Lovart",
+      "slug": "lovart",
+      "url": "https://www.lovart.ai/",
+      "description": "全球首个专注于设计领域的AI智能体（Agent）",
+      "developer": "Lovart"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "千图网",
+      "slug": "千图网",
+      "url": "https://www.58pic.com/",
+      "description": "综合性的设计素材平台",
+      "developer": "58pic"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "智绘设计",
+      "slug": "智绘设计",
+      "url": "https://taishan.qq.com/",
+      "description": "腾讯云智绘，面向个人创作者、中小型企业",
+      "developer": "Taishan"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "摹客",
+      "slug": "摹客",
+      "url": "https://www.mockplus.cn/",
+      "description": "为产品开发团队提供全流程协作，原型设计、UI设计",
+      "developer": "Mockplus"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "MasterGo AI",
+      "slug": "mastergo-ai",
+      "url": "https://mastergo.com/",
+      "description": "AI驱动的设计协作工具",
+      "developer": "Mastergo"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "即时设计AI",
+      "slug": "即时设计ai",
+      "url": "https://js.design/ai",
+      "description": "AI设计工具",
+      "developer": "Js"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "暗壳AI",
+      "slug": "暗壳ai",
+      "url": "https://ark.art/",
+      "description": "设计师专业级AIGC设计平台",
+      "developer": "Ark"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "千鹿AI",
+      "slug": "千鹿ai",
+      "url": "https://qianlu.cc/",
+      "description": "AI设计助手平台",
+      "developer": "Qianlu"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "Adobe Firefly",
+      "slug": "adobe-firefly",
+      "url": "https://www.adobe.com/sensei/generative-ai/firefly.html",
+      "description": "Adobe AI设计工具",
+      "developer": "Adobe"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "Canva AI",
+      "slug": "canva-ai",
+      "url": "https://www.canva.com/",
+      "description": "AI在线设计平台",
+      "developer": "Canva"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "Microsoft Designer",
+      "slug": "microsoft-designer",
+      "url": "https://designer.microsoft.com/",
+      "description": "微软AI设计工具",
+      "developer": "Designer"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "LogoAI",
+      "slug": "logoai",
+      "url": "https://www.logoai.com/",
+      "description": "AI logo设计工具",
+      "developer": "Logoai"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "Looka",
+      "slug": "looka",
+      "url": "https://looka.com/",
+      "description": "AI品牌设计工具",
+      "developer": "Looka"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "Stockimg AI",
+      "slug": "stockimg-ai",
+      "url": "https://stockimg.ai/",
+      "description": "AI图像和设计生成",
+      "developer": "Stockimg"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "Uizard",
+      "slug": "uizard",
+      "url": "https://uizard.io/",
+      "description": "AI UI设计工具",
+      "developer": "Uizard"
+    },
+    {
+      "category": "AI设计工具",
+      "name": "Framer AI",
+      "slug": "framer-ai",
+      "url": "https://framer.com/",
+      "description": "AI网站设计工具",
+      "developer": "Framer"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "豆包AI助手",
+      "slug": "豆包ai助手",
+      "url": "https://www.doubao.com/",
+      "description": "智能对话助手，办公创作全能",
+      "developer": "字节跳动"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "千问",
+      "slug": "千问",
+      "url": "https://qwen.ai/",
+      "description": "最新Qwen模型体验 - 通义千问",
+      "developer": "阿里"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "豆包桌面版",
+      "slug": "豆包桌面版",
+      "url": "https://www.doubao.com/desktop",
+      "description": "豆包桌面版是一款可以在电脑桌面上使用的AI助手",
+      "developer": "字节跳动"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "讯飞星火",
+      "slug": "讯飞星火",
+      "url": "https://xinghuo.xfyun.cn/",
+      "description": "科大讯飞推出的高性能AI语言模型",
+      "developer": "科大讯飞"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "腾讯元宝",
+      "slug": "腾讯元宝",
+      "url": "https://yuanbao.tencent.com/",
+      "description": "DeepSeek+智能新体验",
+      "developer": "Yuanbao"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "智谱清言",
+      "slug": "智谱清言",
+      "url": "https://www.zhipuai.cn/",
+      "description": "千亿参数对话模型",
+      "developer": "智谱AI"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "DeepSeek官方入口",
+      "slug": "deepseek官方入口",
+      "url": "https://chat.deepseek.com/",
+      "description": "DeepSeek官方登录入口",
+      "developer": "Chat"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "Kimi",
+      "slug": "kimi",
+      "url": "https://kimi.moonshot.cn/",
+      "description": "Moonshot自研的大语言模型驱动，支持在线搜索、深度思考",
+      "developer": "Kimi"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "文心一言",
+      "slug": "文心一言",
+      "url": "https://yiyan.baidu.com/",
+      "description": "智能伙伴，可以陪你聊天、回答问题、画图识图",
+      "developer": "Yiyan"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "灵光AI",
+      "slug": "灵光ai",
+      "url": "https://www.lingguangai.com/",
+      "description": "全模态通用AI助手",
+      "developer": "Lingguangai"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "问小白",
+      "slug": "问小白",
+      "url": "https://www.wenxiaobai.com/",
+      "description": "简化用户日常生活的智能助手",
+      "developer": "Wenxiaobai"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "纳米AI助手",
+      "slug": "纳米ai助手",
+      "url": "https://www.natb.com/",
+      "description": "一站体验国内领先大模型",
+      "developer": "Natb"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "百度AI助手",
+      "slug": "百度ai助手",
+      "url": "https://ai.baidu.com/",
+      "description": "百度推出的基于人工智能技术的在线聊天机器人",
+      "developer": "Ai"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "商汤商量SenseChat",
+      "slug": "商汤商量sensechat",
+      "url": "https://www.sensetime.com/",
+      "description": "商汤科技推出的语言大模型",
+      "developer": "Sensetime"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "天工AI助手",
+      "slug": "天工ai助手",
+      "url": "https://www.tiangong.cn/",
+      "description": "多功能的智能助手",
+      "developer": "Tiangong"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "当贝AI",
+      "slug": "当贝ai",
+      "url": "https://ai.dangbei.top/",
+      "description": "集合了满血版DeepSeek R1、豆包和通义千问",
+      "developer": "Ai"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "360智脑",
+      "slug": "360智脑",
+      "url": "https://ai.360.cn/",
+      "description": "360公司自研的认知型通用大模型",
+      "developer": "Ai"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "知乎直答",
+      "slug": "知乎直答",
+      "url": "https://www.zhihu.com/zaodian",
+      "description": "知乎推出的一项基于人工智能技术的搜索问答服务",
+      "developer": "Zhihu"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "万知",
+      "slug": "万知",
+      "url": "https://www.wanzhi.com/",
+      "description": "问答、阅读、创作的一站式AI工作平台",
+      "developer": "Wanzhi"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "ChatGPT",
+      "slug": "chatgpt",
+      "url": "https://chat.openai.com/",
+      "description": "OpenAI ChatGPT对话助手",
+      "developer": "Chat"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "Claude",
+      "slug": "claude",
+      "url": "https://claude.ai/",
+      "description": "Anthropic AI助手",
+      "developer": "Claude"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "Gemini",
+      "slug": "gemini",
+      "url": "https://gemini.google.com/",
+      "description": "Google Gemini AI助手",
+      "developer": "Gemini"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "Perplexity",
+      "slug": "perplexity",
+      "url": "https://www.perplexity.ai/",
+      "description": "AI搜索引擎助手",
+      "developer": "Perplexity"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "Pi AI",
+      "slug": "pi-ai",
+      "url": "https://pi.ai/",
+      "description": "Inflection AI个人AI助手",
+      "developer": "Pi"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "Character.AI",
+      "slug": "character-ai",
+      "url": "https://character.ai/",
+      "description": "AI角色扮演聊天平台",
+      "developer": "Character"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "Coze",
+      "slug": "coze",
+      "url": "https://www.coze.cn/",
+      "description": "字节Coze AI助手开发平台",
+      "developer": "字节Coze"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "Dify",
+      "slug": "dify",
+      "url": "https://dify.ai/",
+      "description": "开源LLMOps平台",
+      "developer": "Dify"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "Copilot",
+      "slug": "copilot",
+      "url": "https://copilot.microsoft.com/",
+      "description": "微软Copilot AI助手",
+      "developer": "Copilot"
+    },
+    {
+      "category": "AI智能助手",
+      "name": "文心APP",
+      "slug": "文心app",
+      "url": "https://xiaoice.com/",
+      "description": "文小言,最懂你的AI朋友",
+      "developer": "Xiaoice"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "谱乐AI",
+      "slug": "谱乐ai",
+      "url": "https://app.yourmusic.fun/",
+      "description": "功能强大且极具创新性的AI音乐创作平台",
+      "developer": "App"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "Suno苏诺中文版",
+      "slug": "suno苏诺中文版",
+      "url": "https://www.suno.cn/",
+      "description": "当AI成为你的音乐合伙人",
+      "developer": "Suno"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "音述AI",
+      "slug": "音述ai",
+      "url": "https://www.yinshu.me/",
+      "description": "以声音述说故事为核心的AI音乐创作与声音分享社区",
+      "developer": "Yinshu"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "OhYesAI 音乐MV生成",
+      "slug": "ohyesai-音乐mv生成",
+      "url": "https://ohyesai.com/",
+      "description": "AI MV创作智能体平台",
+      "developer": "Ohyesai"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "即梦AI音乐生成",
+      "slug": "即梦ai音乐生成",
+      "url": "https://jimeng.jianying.com/ai-tool/home",
+      "description": "创作灵感探索社区，抖音推出的图文生成工具",
+      "developer": "Jimeng"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "Mureka AI",
+      "slug": "mureka-ai",
+      "url": "https://www.mureka.cn/",
+      "description": "昆仑万维AI音乐创作平台",
+      "developer": "Mureka"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "AiWave",
+      "slug": "aiwave",
+      "url": "https://www.aiwave.art/",
+      "description": "AI音效生成平台",
+      "developer": "Aiwave"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "抖音音乐",
+      "slug": "抖音音乐",
+      "url": "https://music.douyin.com/studio",
+      "description": "抖音一站式AI音乐生产力工具",
+      "developer": "Music"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "OpenMusic AI",
+      "slug": "openmusic-ai",
+      "url": "https://www.openmusic.ai/",
+      "description": "60秒快速生成录音室品质的原创音乐",
+      "developer": "Openmusic"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "音潮",
+      "slug": "音潮",
+      "url": "https://web.yinchaoyongxian.com/",
+      "description": "全栈自研AI音乐平台",
+      "developer": "Web"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "Noema Lab创作实验室",
+      "slug": "noema-lab创作实验室",
+      "url": "https://www.aimusic-tools.com/",
+      "description": "AI音乐创作实验室",
+      "developer": "Aimusic-tools"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "网易·天音",
+      "slug": "网易-天音",
+      "url": "https://tianyin.music.163.com/",
+      "description": "一站式AI音乐创作平台",
+      "developer": "Tianyin"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "海绵音乐",
+      "slug": "海绵音乐",
+      "url": "https://www.haimianyinyue.com/",
+      "description": "精选音乐的聚集地",
+      "developer": "Haimianyinyue"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "Suno",
+      "slug": "suno",
+      "url": "https://suno.com/",
+      "description": "歌曲创作平台",
+      "developer": "Suno"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "AIVA",
+      "slug": "aiva",
+      "url": "https://www.aiva.ai/",
+      "description": "专业级音乐生成为核心定位",
+      "developer": "Aiva"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "Udio",
+      "slug": "udio",
+      "url": "https://www.udio.com/",
+      "description": "AI音乐生成平台",
+      "developer": "Udio"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "Mubert",
+      "slug": "mubert",
+      "url": "https://mubert.com/",
+      "description": "AI音乐生成平台",
+      "developer": "Mubert"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "Boomy",
+      "slug": "boomy",
+      "url": "https://boomy.com/",
+      "description": "AI音乐创作工具",
+      "developer": "Boomy"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "Soundraw",
+      "slug": "soundraw",
+      "url": "https://soundraw.io/",
+      "description": "AI音乐生成平台",
+      "developer": "Soundraw"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "SongR",
+      "slug": "songr",
+      "url": "https://www.songr.ai/",
+      "description": "AI歌曲生成器",
+      "developer": "Songr"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "天工SkyMusic",
+      "slug": "天工skymusic",
+      "url": "https://music.tiangong.cn/",
+      "description": "昆仑万维AI音乐工具",
+      "developer": "Music"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "天谱乐",
+      "slug": "天谱乐",
+      "url": "https://tianpuyue.cn/",
+      "description": "AI音乐创作工具",
+      "developer": "Tianpuyue"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "歌歌AI",
+      "slug": "歌歌ai",
+      "url": "https://gegemusic.cn/",
+      "description": "AI音乐创作平台",
+      "developer": "Gegemusic"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "网易云音乐·X Studio",
+      "slug": "网易云音乐-x-studio",
+      "url": "https://xstudio.music.163.com/",
+      "description": "网易云音乐AI歌手工具",
+      "developer": "Xstudio"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "ACE Studio",
+      "slug": "ace-studio",
+      "url": "https://acestudio.ai/",
+      "description": "AI音乐创作平台",
+      "developer": "Acestudio"
+    },
+    {
+      "category": "AI音乐生成",
+      "name": "讯飞·听见",
+      "slug": "讯飞-听见",
+      "url": "https://www.iflyrec.com/",
+      "description": "AI语音识别和翻译",
+      "developer": "Iflyrec"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "扣子",
+      "slug": "扣子",
+      "url": "https://www.coze.cn/",
+      "description": "职场AI，就用扣子！",
+      "developer": "字节Coze"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "Flowith Agent",
+      "slug": "flowith-agent",
+      "url": "https://flowith.io/",
+      "description": "解决AI时代信息过载与深度思考稀缺的矛盾",
+      "developer": "Flowith"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "爱派AiPy",
+      "slug": "爱派aipy",
+      "url": "https://aipyai.com/",
+      "description": "可本地部署的AI智能体",
+      "developer": "Aipyai"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "星辰Agent",
+      "slug": "星辰agent",
+      "url": "https://xingchen.cn/",
+      "description": "新一代智能体Agent开发平台",
+      "developer": "Xingchen"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "FastGPT",
+      "slug": "fastgpt",
+      "url": "https://fastgpt.cn/",
+      "description": "企业级AI Agent搭建平台",
+      "developer": "Fastgpt"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "百度伐谋",
+      "slug": "百度伐谋",
+      "url": "https://famo.baidu.com/",
+      "description": "百度旗下可商用自我演化超级智能体",
+      "developer": "Famo"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "01Agent",
+      "slug": "01agent",
+      "url": "https://01.ai/",
+      "description": "全流程内容创作智能体",
+      "developer": "01"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "AgentPolis – Agent城邦",
+      "slug": "agentpolis-agent城邦",
+      "url": "https://agentpolis.com/",
+      "description": "让你的AI智能体自己上架、交易、签合约、交朋友",
+      "developer": "Agentpolis"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "Refly AI",
+      "slug": "refly-ai",
+      "url": "https://refly.ai/",
+      "description": "适合小白的AI自动化工作流平台",
+      "developer": "Refly"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "超级麦吉-Super Magic",
+      "slug": "超级麦吉-super-magic",
+      "url": "https://supermagic.cc/",
+      "description": "开源一站式AI生产力平台",
+      "developer": "Supermagic"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "智慧芽Eureka",
+      "slug": "智慧芽eureka",
+      "url": "https://www.zhihuiya.com/",
+      "description": "更懂技术创新的AI Agent平台",
+      "developer": "Zhihuiya"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "腾讯元器",
+      "slug": "腾讯元器",
+      "url": "https://yuanqi.tencent.com/",
+      "description": "腾讯推出的一站式AI智能体创作与分发平台",
+      "developer": "Yuanqi"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "钉钉AI助理",
+      "slug": "钉钉ai助理",
+      "url": "https://page.dingtalk.com/wow/zhaoshang/act/ai-assistant",
+      "description": "集成了多种智能办公工具的综合性平台",
+      "developer": "Page"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "百宝箱",
+      "slug": "百宝箱",
+      "url": "https://render.alipay.com/ai/",
+      "description": "支付宝一站式AI应用开发平台",
+      "developer": "Render"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "Dify",
+      "slug": "dify",
+      "url": "https://dify.ai/",
+      "description": "简单易用的开源LLMOps平台",
+      "developer": "Dify"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "文心智能体平台",
+      "slug": "文心智能体平台",
+      "url": "https://agents.baidu.com/",
+      "description": "百度基于文心大模型的Agent平台",
+      "developer": "Agents"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "飞书智能伙伴",
+      "slug": "飞书智能伙伴",
+      "url": "https://www.feishu.cn/",
+      "description": "字节跳动旗下企业办公和协作平台飞书的AI办公助手",
+      "developer": "Feishu"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "实在智能",
+      "slug": "实在智能",
+      "url": "https://www.realai.cn/",
+      "description": "基于AI+RPA技术的智能助理",
+      "developer": "Realai"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "Coze",
+      "slug": "coze",
+      "url": "https://www.coze.com/",
+      "description": "字节Coze AI开发平台",
+      "developer": "字节Coze"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "Zapier",
+      "slug": "zapier",
+      "url": "https://zapier.com/",
+      "description": "AI工作流自动化平台",
+      "developer": "Zapier"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "Make",
+      "slug": "make",
+      "url": "https://make.com/",
+      "description": "AI工作流自动化",
+      "developer": "Make"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "n8n",
+      "slug": "n8n",
+      "url": "https://n8n.io/",
+      "description": "开源工作流自动化平台",
+      "developer": "N8n"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "AutoGen",
+      "slug": "autogen",
+      "url": "https://microsoft.github.io/autogen/",
+      "description": "微软AutoGen多智能体框架",
+      "developer": "Microsoft"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "LangGraph",
+      "slug": "langgraph",
+      "url": "https://langchain-ai.github.io/langgraph/",
+      "description": "LangChain多智能体框架",
+      "developer": "Langchain-ai"
+    },
+    {
+      "category": "Agents开发平台",
+      "name": "LangFlow",
+      "slug": "langflow",
+      "url": "https://www.langflow.org/",
+      "description": "LangChain可视化流程编排工具",
+      "developer": "Langflow"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "秒哒×OpenClaw",
+      "slug": "秒哒-openclaw",
+      "url": "https://miaoda.net.cn/",
+      "description": "通过自然语言对话，完成应用的创建、查看、修改、发布上线等操作",
+      "developer": "Miaoda"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "TRAE编程",
+      "slug": "trae编程",
+      "url": "https://trae.ai/",
+      "description": "AI辅助编程，代码自动修复",
+      "developer": "Trae"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "码上飞-AI生成小程序",
+      "slug": "码上飞-ai生成小程序",
+      "url": "https://www.imasoft.cn/",
+      "description": "免费生成小程序/app/网站等各类应用",
+      "developer": "Imasoft"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "泰山AI – 智能开发平台",
+      "slug": "泰山ai-智能开发平台",
+      "url": "https://taishanai.com/",
+      "description": "AI全流程赋能",
+      "developer": "Taishanai"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "NoCode",
+      "slug": "nocode",
+      "url": "https://www.nocodeai.cn/",
+      "description": "简单操作如拖放、AI对话等无需编写代码",
+      "developer": "Nocodeai"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "CodingSee-AI伴学",
+      "slug": "codingsee-ai伴学",
+      "url": "https://www.codingsee.com/",
+      "description": "专为中国少儿编程设计的软件",
+      "developer": "Codingsee"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "腾讯云AI代码助手",
+      "slug": "腾讯云ai代码助手",
+      "url": "https://cloud.tencent.com/product/ai",
+      "description": "腾讯云自主研发的AI编程辅助工具",
+      "developer": "Cloud"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "驭码CodeRider",
+      "slug": "驭码coderider",
+      "url": "https://gitlab.cn/ai",
+      "description": "极狐GitLab推出的AI编程与软件智能研发助手",
+      "developer": "Gitlab"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "图像大厨Imgcook",
+      "slug": "图像大厨imgcook",
+      "url": "https://www.imgcook.com/",
+      "description": "阿里巴巴出品的设计稿转代码工具",
+      "developer": "Imgcook"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "GitHub Copilot",
+      "slug": "github-copilot",
+      "url": "https://github.com/features/copilot",
+      "description": "GitHub和OpenAI联合开发的AI编程助手",
+      "developer": "Github"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "CodeWhisperer",
+      "slug": "codewhisperer",
+      "url": "https://aws.amazon.com/codewhisperer/",
+      "description": "Amazon Q开发者版AI编程工具",
+      "developer": "Aws"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "通义灵码",
+      "slug": "通义灵码",
+      "url": "https://tongyi.lingma.aliyun.com/",
+      "description": "基于通义大模型的智能编码辅助工具",
+      "developer": "Tongyi"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "Bolt.new",
+      "slug": "bolt-new",
+      "url": "https://bolt.new/",
+      "description": "为全栈Web开发者设计的高效工具",
+      "developer": "Bolt"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "Plandex",
+      "slug": "plandex",
+      "url": "https://plandex.ai/",
+      "description": "基于终端的开源AI编程引擎",
+      "developer": "Plandex"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "Tabby",
+      "slug": "tabby",
+      "url": "https://tabby.tabbyml.com/",
+      "description": "自托管的人工智能编程助手",
+      "developer": "Tabby"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "Fitten Code",
+      "slug": "fitten-code",
+      "url": "https://www.fittencode.com/",
+      "description": "GPT驱动的代码生成和补全工具",
+      "developer": "Fittencode"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "Cursor",
+      "slug": "cursor",
+      "url": "https://cursor.com/",
+      "description": "AI代码编辑器",
+      "developer": "Cursor"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "Windsurf",
+      "slug": "windsurf",
+      "url": "https://windsurf.com/",
+      "description": "AI代码编辑器",
+      "developer": "Windsurf"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "Replit",
+      "slug": "replit",
+      "url": "https://replit.com/",
+      "description": "AI编程平台",
+      "developer": "Replit"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "Vercel v0",
+      "slug": "vercel-v0",
+      "url": "https://v0.dev/",
+      "description": "Vercel AI代码生成",
+      "developer": "V0"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "Codeium",
+      "slug": "codeium",
+      "url": "https://codeium.com/",
+      "description": "AI代码补全工具",
+      "developer": "Codeium"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "Amazon Q Developer",
+      "slug": "amazon-q-developer",
+      "url": "https://aws.amazon.com/q/developer/",
+      "description": "AWS AI编程助手",
+      "developer": "Aws"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "JetBrains AI",
+      "slug": "jetbrains-ai",
+      "url": "https://www.jetbrains.com/ai/",
+      "description": "JetBrains AI编程助手",
+      "developer": "Jetbrains"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "小浣熊AI助手",
+      "slug": "小浣熊ai助手",
+      "url": "https://www.sensetime.com/",
+      "description": "商汤科技智能AI编程助手",
+      "developer": "Sensetime"
+    },
+    {
+      "category": "AI编程工具",
+      "name": "HowOne AI",
+      "slug": "howone-ai",
+      "url": "https://www.howoneai.com/",
+      "description": "构建并商业化AI应用的一站式平台",
+      "developer": "Howoneai"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "OpenAI API",
+      "slug": "openai-api",
+      "url": "https://openai.com/index/openai-api/",
+      "description": "OpenAI官方API平台",
+      "developer": "OpenAI"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "火山方舟",
+      "slug": "火山方舟",
+      "url": "https://www.volcengine.com/product/jimeng",
+      "description": "火山引擎大模型API平台",
+      "developer": "Volcengine"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "阿里云百炼",
+      "slug": "阿里云百炼",
+      "url": "https://bailian.console.aliyun.com/",
+      "description": "企业级模型服务和应用开发平台",
+      "developer": "Bailian"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "千帆大模型平台",
+      "slug": "千帆大模型平台",
+      "url": "https://qianfan.cloud.baidu.com/",
+      "description": "以Agent为核心的一站式企业级大模型服务平台",
+      "developer": "Qianfan"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "DeepSeek API",
+      "slug": "deepseek-api",
+      "url": "https://platform.deepseek.com/",
+      "description": "DeepSeek官方API平台",
+      "developer": "Platform"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "KIMI API",
+      "slug": "kimi-api",
+      "url": "https://platform.moonshot.cn/",
+      "description": "Moonshot Kimi多模态模型API",
+      "developer": "Platform"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "MiniMax API",
+      "slug": "minimax-api",
+      "url": "https://www.minimax.chat/",
+      "description": "全栈模型矩阵API平台",
+      "developer": "Minimax"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "智谱BigModel",
+      "slug": "智谱bigmodel",
+      "url": "https://bigmodel.cn/",
+      "description": "智谱AI大模型API平台",
+      "developer": "Bigmodel"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "讯飞星火API",
+      "slug": "讯飞星火api",
+      "url": "https://xinghuo.xfyun.cn/",
+      "description": "科大讯飞大模型API",
+      "developer": "科大讯飞"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "腾讯混元API",
+      "slug": "腾讯混元api",
+      "url": "https://hunyuan.cloud.tencent.com/",
+      "description": "腾讯混元大模型API",
+      "developer": "Hunyuan"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "Google Gemini API",
+      "slug": "google-gemini-api",
+      "url": "https://ai.google.dev/",
+      "description": "Google Gemini API",
+      "developer": "Ai"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "Anthropic API",
+      "slug": "anthropic-api",
+      "url": "https://www.anthropic.com/api",
+      "description": "Anthropic Claude API",
+      "developer": "Anthropic"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "Groq API",
+      "slug": "groq-api",
+      "url": "https://console.groq.com/",
+      "description": "Groq LPU推理API",
+      "developer": "Console"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "Together AI",
+      "slug": "together-ai",
+      "url": "https://www.together.ai/",
+      "description": "开源模型API平台",
+      "developer": "Together"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "Replicate",
+      "slug": "replicate",
+      "url": "https://replicate.com/",
+      "description": "AI模型API平台",
+      "developer": "Replicate"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "Cohere",
+      "slug": "cohere",
+      "url": "https://cohere.com/",
+      "description": "AI语言模型API",
+      "developer": "Cohere"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "AWS Bedrock",
+      "slug": "aws-bedrock",
+      "url": "https://aws.amazon.com/bedrock/",
+      "description": "AWS大模型API平台",
+      "developer": "Aws"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "Azure OpenAI",
+      "slug": "azure-openai",
+      "url": "https://azure.microsoft.com/products/ai-services/openai-service",
+      "description": "微软Azure OpenAI API",
+      "developer": "Azure"
+    },
+    {
+      "category": "AI应用接口API",
+      "name": "硅基流动",
+      "slug": "硅基流动",
+      "url": "https://siliconflow.cn/",
+      "description": "国内AI模型API平台",
+      "developer": "Siliconflow"
+    }
+  ]
+}

@@ -1,0 +1,585 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model action_types {
+  id                    String    @id
+  rid                   String?
+  apiName               String    @unique
+  displayName           String
+  description           String?
+  status                String    @default("active")
+  applicableObjectTypes String[]  @default([])
+  parameters            Json      @default("[]")
+  rules                 Json      @default("[]")
+  submissionCriteria    Json      @default("[]")
+  sideEffects           Json      @default("[]")
+  permissions           Json      @default("{}")
+  version               Int       @default(1)
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime
+  createdBy             String?
+  updatedBy             String?
+  actions               actions[]
+
+  @@index([apiName])
+}
+
+model actions {
+  id           String       @id
+  actionTypeId String
+  objectId     String?
+  parameters   Json         @default("{}")
+  status       String       @default("pending")
+  result       Json?
+  error        String?
+  errorDetails Json?
+  changes      Json?
+  submittedAt  DateTime?
+  startedAt    DateTime?
+  completedAt  DateTime?
+  submittedBy  String?
+  executedBy   String?
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime
+  action_types action_types @relation(fields: [actionTypeId], references: [id], onDelete: Cascade)
+
+  @@index([actionTypeId])
+  @@index([objectId])
+  @@index([status])
+}
+
+model anti_gaming_records {
+  id        String   @id
+  userId    String?
+  sessionId String?
+  ipAddress String?
+  toolRid   String?
+  riskLevel String   @default("low")
+  riskScore Float    @default(0)
+  behaviors String[] @default([])
+  flags     String[] @default([])
+  action    String   @default("allow")
+  metadata  Json     @default("{}")
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([ipAddress])
+  @@index([riskLevel])
+  @@index([sessionId])
+  @@index([userId])
+}
+
+model functions {
+  id               String   @id
+  rid              String?
+  apiName          String   @unique
+  displayName      String
+  description      String?
+  status           String   @default("active")
+  version          Int      @default(1)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime
+  createdBy        String?
+  updatedBy        String?
+  boundObjectTypes String[] @default([])
+  executionMode    String   @default("SERVERLESS")
+  language         String   @default("TYPESCRIPT")
+  parameters       Json     @default("[]")
+  performsEdits    Boolean  @default(false)
+  returnType       Json
+  timeoutMs        Int      @default(30000)
+
+  @@index([apiName])
+}
+
+model heat_config {
+  id          String   @id
+  configKey   String   @unique
+  configValue Json
+  description String?
+  updatedAt   DateTime
+  createdAt   DateTime @default(now())
+
+  @@index([configKey])
+}
+
+model interface_implementations {
+  id           String       @id
+  interfaceId  String
+  objectTypeId String
+  createdAt    DateTime     @default(now())
+  interfaces   interfaces   @relation(fields: [interfaceId], references: [id], onDelete: Cascade)
+  object_types object_types @relation(fields: [objectTypeId], references: [id], onDelete: Cascade)
+
+  @@unique([interfaceId, objectTypeId])
+  @@index([interfaceId])
+  @@index([objectTypeId])
+}
+
+model interfaces {
+  id                        String                      @id
+  rid                       String?
+  apiName                   String                      @unique
+  displayName               String
+  description               String?
+  status                    String                      @default("experimental")
+  icon                      String?
+  color                     String?
+  sharedProperties          Json                        @default("[]")
+  interfaceLinkTypes        Json                        @default("[]")
+  extendedInterfaces        String[]                    @default([])
+  version                   Int                         @default(1)
+  createdAt                 DateTime                    @default(now())
+  updatedAt                 DateTime
+  createdBy                 String?
+  updatedBy                 String?
+  interface_implementations interface_implementations[]
+
+  @@index([apiName])
+}
+
+model link_types {
+  id                                                       String       @id
+  rid                                                      String?
+  apiName                                                  String       @unique
+  displayName                                              String
+  description                                              String?
+  status                                                   String       @default("active")
+  sourceObjectTypeId                                       String
+  targetObjectTypeId                                       String
+  cardinality                                              String       @default("MANY_TO_MANY")
+  visibility                                               String       @default("prominent")
+  foreignKeyProperty                                       String?
+  propertyDefinitions                                      Json         @default("[]")
+  backingDatasources                                       Json         @default("[]")
+  typeClasses                                              Json         @default("[]")
+  version                                                  Int          @default(1)
+  createdAt                                                DateTime     @default(now())
+  updatedAt                                                DateTime
+  createdBy                                                String?
+  updatedBy                                                String?
+  object_types_link_types_sourceObjectTypeIdToobject_types object_types @relation("link_types_sourceObjectTypeIdToobject_types", fields: [sourceObjectTypeId], references: [id], onDelete: Cascade)
+  object_types_link_types_targetObjectTypeIdToobject_types object_types @relation("link_types_targetObjectTypeIdToobject_types", fields: [targetObjectTypeId], references: [id], onDelete: Cascade)
+  links                                                    links[]
+
+  @@index([apiName])
+  @@index([sourceObjectTypeId])
+  @@index([targetObjectTypeId])
+}
+
+model links {
+  id                                    String     @id
+  linkTypeId                            String
+  sourceObjectId                        String
+  targetObjectId                        String
+  properties                            Json       @default("{}")
+  dataSourceId                          String?
+  externalId                            String?
+  version                               Int        @default(1)
+  createdAt                             DateTime   @default(now())
+  updatedAt                             DateTime
+  createdBy                             String?
+  updatedBy                             String?
+  link_types                            link_types @relation(fields: [linkTypeId], references: [id], onDelete: Cascade)
+  objects_links_sourceObjectIdToobjects objects    @relation("links_sourceObjectIdToobjects", fields: [sourceObjectId], references: [id], onDelete: Cascade)
+  objects_links_targetObjectIdToobjects objects    @relation("links_targetObjectIdToobjects", fields: [targetObjectId], references: [id], onDelete: Cascade)
+
+  @@unique([linkTypeId, sourceObjectId, targetObjectId])
+  @@index([linkTypeId])
+  @@index([sourceObjectId])
+  @@index([targetObjectId])
+}
+
+// MANY_TO_MANY Link Type: toolSuitableFor (AIGCTool <-> UseCase)
+model link_tool_suitable_for {
+  id             String   @id
+  sourceObjectId String
+  targetObjectId String
+  properties     Json     @default("{}")
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime
+
+  @@unique([sourceObjectId, targetObjectId])
+  @@index([sourceObjectId])
+  @@index([targetObjectId])
+}
+
+// MANY_TO_MANY Link Type: toolCompetitorOf (AIGCTool <-> AIGCTool)
+model link_tool_competitor_of {
+  id             String   @id
+  sourceObjectId String
+  targetObjectId String
+  properties     Json     @default("{}")
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime
+
+  @@unique([sourceObjectId, targetObjectId])
+  @@index([sourceObjectId])
+  @@index([targetObjectId])
+}
+
+model datasource_mappings {
+  id               String   @id
+  rid              String?  @unique
+  objectTypeId     String
+  apiName          String
+  displayName      String
+  description      String?
+  datasourceType   String   @default("PRISMA_MODEL")
+  sourceIdentifier String
+  schemaName       String?
+  isPrimary        Boolean  @default(false)
+  propertyMappings Json     @default("{}")
+  supportsWrites   Boolean  @default(true)
+  syncConfig       Json?
+  status           String   @default("active")
+  version          Int      @default(1)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime
+  createdBy        String?
+  updatedBy        String?
+  object_types     object_types @relation(fields: [objectTypeId], references: [id], onDelete: Cascade)
+
+  @@unique([objectTypeId, apiName])
+  @@index([objectTypeId])
+  @@index([apiName])
+  @@index([datasourceType])
+  @@index([sourceIdentifier])
+  @@index([status])
+}
+
+model object_types {
+  id                                                     String                      @id
+  rid                                                    String                      @unique
+  apiName                                                String                      @unique
+  displayName                                            String
+  description                                            String?
+  status                                                 String                      @default("active")
+  icon                                                   String?
+  color                                                  String?
+  primaryKeys                                            String[]                    @default([])
+  titleKeys                                              String[]                    @default([])
+  properties                                             Json                        @default("[]")
+  backingDatasources                                     Json                        @default("[]")
+  typeClasses                                            Json                        @default("[]")
+  version                                                Int                         @default(1)
+  createdAt                                              DateTime                    @default(now())
+  updatedAt                                              DateTime
+  createdBy                                              String?
+  updatedBy                                              String?
+  groups                                                 Json                        @default("[]")
+  datasource_mappings                                    datasource_mappings[]
+  interface_implementations                              interface_implementations[]
+  link_types_link_types_sourceObjectTypeIdToobject_types link_types[]                @relation("link_types_sourceObjectTypeIdToobject_types")
+  link_types_link_types_targetObjectTypeIdToobject_types link_types[]                @relation("link_types_targetObjectTypeIdToobject_types")
+  objects                                                objects[]
+
+  @@index([apiName])
+  @@index([status])
+}
+
+model objects {
+  id                                  String             @id
+  objectTypeId                        String
+  rid                                 String?
+  properties                          Json               @default("{}")
+  status                              String             @default("active")
+  dataSourceId                        String?
+  externalId                          String?
+  version                             Int                @default(1)
+  createdAt                           DateTime           @default(now())
+  updatedAt                           DateTime
+  createdBy                           String?
+  updatedBy                           String?
+  links_links_sourceObjectIdToobjects links[]            @relation("links_sourceObjectIdToobjects")
+  links_links_targetObjectIdToobjects links[]            @relation("links_targetObjectIdToobjects")
+  object_types                        object_types       @relation(fields: [objectTypeId], references: [id], onDelete: Cascade)
+  object_properties                   object_properties?
+
+  @@unique([objectTypeId, rid])
+  @@index([dataSourceId])
+  @@index([objectTypeId])
+  @@index([status])
+}
+
+model object_properties {
+  id                   String   @id
+  objectId             String   @unique
+  objectTypeId         String
+  prop_slug            String?
+  prop_name            String?
+  prop_status          String   @default("active")
+  prop_pricingType     String?
+  prop_developer       String?
+  prop_currency        String   @default("CNY")
+  prop_isPopular       Boolean  @default(false)
+  prop_isFeatured      Boolean  @default(false)
+  prop_isVerified      Boolean  @default(false)
+  prop_isOpenSource    Boolean  @default(false)
+  prop_isChineseNative Boolean  @default(true)
+  prop_viewCount       Int      @default(0)
+  prop_favoriteCount   Int      @default(0)
+  prop_compareCount    Int      @default(0)
+  prop_averageRating   Float    @default(0)
+  prop_reviewCount     Int      @default(0)
+  prop_startingPrice   Int?
+  prop_releaseDate     DateTime?
+  prop_createdAt       DateTime?
+  prop_updatedAt       DateTime?
+  version              Int      @default(1)
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime
+  objects              objects  @relation(fields: [objectId], references: [id], onDelete: Cascade)
+
+  @@index([objectTypeId])
+  @@index([prop_slug])
+  @@index([prop_name])
+  @@index([prop_status])
+  @@index([prop_pricingType])
+  @@index([prop_developer])
+  @@index([objectTypeId, prop_status])
+  @@index([objectTypeId, prop_isFeatured])
+  @@index([objectTypeId, prop_isPopular])
+  @@index([prop_viewCount])
+  @@index([prop_favoriteCount])
+  @@index([prop_averageRating])
+  @@index([prop_reviewCount])
+  @@index([prop_createdAt])
+}
+
+model ranking_config {
+  id          String   @id
+  configKey   String   @unique
+  configValue Json
+  description String?
+  updatedAt   DateTime
+  createdAt   DateTime @default(now())
+
+  @@index([configKey])
+}
+
+model ranking_snapshots {
+  id           String   @id
+  type         String
+  perspective  String   @default("default")
+  category     String?
+  rankings     Json     @default("[]")
+  totalTools   Int      @default(0)
+  avgScore     Float    @default(0)
+  maxScore     Float    @default(0)
+  minScore     Float    @default(0)
+  weights      Json     @default("{}")
+  explanation  String[] @default([])
+  calculatedAt DateTime @default(now())
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime
+
+  @@unique([type, perspective, category, calculatedAt])
+  @@index([calculatedAt])
+  @@index([category])
+  @@index([perspective])
+  @@index([type])
+}
+
+model rating_activity_logs {
+  id           String   @id
+  userId       String?
+  sessionId    String?
+  ipAddress    String?
+  toolRid      String?
+  actionType   String
+  metadata     Json     @default("{}")
+  isSuspicious Boolean  @default(false)
+  createdAt    DateTime @default(now())
+
+  @@index([ipAddress, createdAt])
+  @@index([sessionId, createdAt])
+  @@index([toolRid, createdAt])
+  @@index([userId, createdAt])
+}
+
+model shared_properties {
+  id          String   @id
+  rid         String?
+  apiName     String   @unique
+  displayName String
+  description String?
+  baseType    String
+  valueType   String?
+  status      String   @default("active")
+  version     Int      @default(1)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime
+
+  @@index([apiName])
+}
+
+model tool_heat_history {
+  id         String   @id
+  toolRid    String
+  period     String
+  heatScore  Float    @default(0)
+  eventCount Int      @default(0)
+  trend      String   @default("stable")
+  recordedAt DateTime @default(now())
+  createdAt  DateTime @default(now())
+
+  @@index([recordedAt])
+  @@index([toolRid, period, recordedAt])
+}
+
+model tool_heat_snapshots {
+  id            String   @id
+  toolRid       String
+  period        String
+  heatScore     Float    @default(0)
+  rawScore      Float    @default(0)
+  eventCount    Int      @default(0)
+  weightedScore Float    @default(0)
+  decayFactor   Float    @default(1)
+  trend         String   @default("stable")
+  trendChange   Float    @default(0)
+  previousScore Float?
+  level         String   @default("FROZEN")
+  levelIcon     String   @default("❄️")
+  calculatedAt  DateTime @default(now())
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime
+
+  @@unique([toolRid, period])
+  @@index([calculatedAt])
+  @@index([heatScore])
+  @@index([period])
+  @@index([toolRid])
+}
+
+model tool_ranking_history {
+  id             String   @id
+  toolRid        String
+  type           String
+  perspective    String   @default("default")
+  category       String?
+  rank           Int
+  score          Float
+  previousRank   Int?
+  rankChange     Int?
+  scoreBreakdown Json     @default("{}")
+  recordedAt     DateTime @default(now())
+  createdAt      DateTime @default(now())
+
+  @@unique([toolRid, type, perspective, category, recordedAt])
+  @@index([recordedAt])
+  @@index([toolRid])
+  @@index([toolRid, type, recordedAt])
+  @@index([type])
+}
+
+model tool_ratings {
+  id                    String   @id
+  toolRid               String   @unique
+  totalRatings          Int      @default(0)
+  averageRating         Float    @default(0)
+  weightedAverageRating Float    @default(0)
+  rating5Count          Int      @default(0)
+  rating4Count          Int      @default(0)
+  rating3Count          Int      @default(0)
+  rating2Count          Int      @default(0)
+  rating1Count          Int      @default(0)
+  averageEaseOfUse      Float?
+  averagePerformance    Float?
+  averageValue          Float?
+  reviewCount           Int      @default(0)
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime
+
+  @@index([averageRating])
+  @@index([toolRid])
+}
+
+model user_events {
+  id        String   @id
+  toolRid   String
+  eventType String
+  userId    String?
+  sessionId String?
+  metadata  Json     @default("{}")
+  weight    Float    @default(1.0)
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([eventType])
+  @@index([toolRid, createdAt])
+  @@index([toolRid, eventType, createdAt])
+  @@index([toolRid])
+}
+
+model user_ratings {
+  id                String   @id
+  toolRid           String
+  userId            String?
+  sessionId         String?
+  ipAddress         String?
+  userAgent         String?
+  overallRating     Int
+  easeOfUseRating   Int?
+  performanceRating Int?
+  valueRating       Int?
+  reviewTitle       String?
+  reviewContent     String?
+  pros              String[] @default([])
+  cons              String[] @default([])
+  isVerified        Boolean  @default(false)
+  isFlagged         Boolean  @default(false)
+  flagReason        String?
+  weight            Float    @default(1.0)
+  helpfulCount      Int      @default(0)
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime
+
+  @@unique([toolRid, sessionId])
+  @@unique([toolRid, userId])
+  @@index([createdAt])
+  @@index([sessionId])
+  @@index([toolRid, createdAt])
+  @@index([toolRid])
+  @@index([userId])
+}
+
+model users {
+  id          String    @id
+  phone       String?   @unique
+  email       String?   @unique
+  nickname    String?
+  avatar      String?
+  password    String?
+  authType    String    @default("phone")
+  status      String    @default("active")
+  lastLoginAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime
+
+  @@index([email])
+  @@index([phone])
+}
+
+model value_types {
+  id          String   @id
+  rid         String?
+  apiName     String   @unique
+  displayName String
+  description String?
+  baseType    String
+  constraints Json     @default("{}")
+  status      String   @default("active")
+  version     Int      @default(1)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime
+
+  @@index([apiName])
+}

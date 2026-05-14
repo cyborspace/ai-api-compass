@@ -1,0 +1,4188 @@
+[
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.蛙蛙写作",
+    "capabilities": [
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.千问-阿里ai助手",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.稿定ai文案",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "image_generation",
+      "vision",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.腾讯元宝",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.笔灵ai写作",
+    "capabilities": [
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.ima-pc端-openclaw",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "retrieval"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.讯飞绘文",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "audio_generation"
+    ],
+    "modalities": [
+      "text",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.ai论文-高质量",
+    "capabilities": [
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.千笔ai论文",
+    "capabilities": [
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.aibiye-ai论文生成",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling",
+      "multimodal",
+      "vision"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.摄图ai写作",
+    "capabilities": [
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.万能小in一键论文",
+    "capabilities": [
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.feelfish写小说",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "audio_generation"
+    ],
+    "modalities": [
+      "text",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.paperpal",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.paperfake-ai写论文",
+    "capabilities": [
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.medpeer-自然科学基金",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "code_generation",
+      "vision",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.讯飞星火",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "audio_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.小鱼ai写作",
+    "capabilities": [
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.万彩ai",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "video",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.ai内容管家",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.慧言ai",
+    "capabilities": [
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.豆包ai写作助手",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.智谱ai输入法",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "audio_generation",
+      "function_calling",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "audio",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.讯飞文书",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "audio_generation"
+    ],
+    "modalities": [
+      "text",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.问小白",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.迅捷ai写作",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.新华妙笔ai",
+    "capabilities": [
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.橙篇",
+    "capabilities": [
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.copydone-ai营销内容创作",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.言笔ai",
+    "capabilities": [
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.writer",
+    "capabilities": [
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.grammarly",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.秘塔写作猫",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling",
+      "retrieval"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.claude",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling",
+      "fine_tuning"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.chatgpt",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling",
+      "fine_tuning"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.notion-ai",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling",
+      "audio_generation"
+    ],
+    "modalities": [
+      "text",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.fridayai写作助手",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.tome",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.hix-ai",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.百度文心一言",
+    "capabilities": [
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.堆友ai绘画",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.稿定ai-文生图",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.liblibai-哩布哩布ai",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.可图ai绘画",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "video_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "image",
+      "text",
+      "video"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.绘蛙ai-创意文生图",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.巨日禄ai漫画",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "video_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "image",
+      "text",
+      "video"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.图星人ai生图",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "multimodal",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text",
+      "audio",
+      "video"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.linkfox-ai",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.摄图ai画图",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.即梦ai图片生成",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.openflow",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.造点ai",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "video_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "image",
+      "text",
+      "video"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.包图ai文生图",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.holopix-ai",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "text_generation",
+      "function_calling",
+      "streaming"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.吐司ai绘画",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.触手ai绘画",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.妙话ai",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.runninghub",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.字加ai",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.炉米lumi",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.canva可画ai生图",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.raphael-ai",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.midjourney",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.stable-diffusion",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.dall-e-3",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "image",
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.adobe-firefly",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.ideogram",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.leonardo-ai",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.bing-image-creator",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.通义万相",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "text_generation",
+      "function_calling",
+      "streaming"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.文心一格",
+    "capabilities": [
+      "image_generation",
+      "vision",
+      "text_generation",
+      "function_calling",
+      "streaming"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.6pen-art",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.tiamat",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.画宇宙",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.触手ai",
+    "capabilities": [
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.堆友ai视频",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "vision",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.扣子-视频创作",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.可灵ai电影级视频创作",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.绘蛙ai视频",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.liblib-ai-视频",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "vision",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.白日梦ai生成视频",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.即梦桌面版-剪映",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "vision",
+      "audio_generation",
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.即梦ai视频生成",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "vision",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.有言-一键生成视频",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.闪剪_ai视频剪辑",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.vibeknow",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.haimeta",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.a9-ai",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.献丑ai",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.flova-ai",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.云幕同声",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "text_generation",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.万兴天幕ai",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal",
+      "vision",
+      "text_generation"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.包图视频",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.智小象vivago",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.nereo-ai视频",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.magiclight",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "code_generation",
+      "text_generation",
+      "function_calling",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.讯飞智作-创意视频",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "audio_generation",
+      "text_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.sora",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.海螺ai视频",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.腾讯混元ai视频",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.vidu",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.pixverse",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.即创ai",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.moki",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.stable-video",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "vision",
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.pika-art",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "vision",
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.runway",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.heygen",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.synthesia",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.lumen5",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.kaiber",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.viggle",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.hedra",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.艺映ai",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.清影2-0",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "vision",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.wanx2-1",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.fliki",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.invideo",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.wonder-dynamics",
+    "capabilities": [
+      "video_generation",
+      "image_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "video",
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.扣子-ppt制作",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.稿定ppt",
+    "capabilities": [
+      "text_generation",
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.islide-ppt",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.博思aippt",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.chatppt",
+    "capabilities": [
+      "text_generation",
+      "image_generation",
+      "function_calling",
+      "streaming"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.咔片ppt",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.全智能ai一键生成ppt",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.办公小浣熊",
+    "capabilities": [
+      "text_generation",
+      "image_generation",
+      "streaming",
+      "code_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.笔格aippt-agent模式",
+    "capabilities": [
+      "text_generation",
+      "image_generation",
+      "code_generation",
+      "function_calling",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.pi-智能演示文档",
+    "capabilities": [
+      "text_generation",
+      "image_generation",
+      "function_calling",
+      "streaming"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.觅知网ai-ppt模板",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.笔灵ai生成答辩ppt",
+    "capabilities": [
+      "text_generation",
+      "image_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.爱设计ppt",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.歌者ppt",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.二狗-ai-ppt",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.迅捷aippt",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.课灵ppt",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.讯飞智文",
+    "capabilities": [
+      "text_generation",
+      "image_generation",
+      "audio_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.voxdeck",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.ppt百科",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.美图liveppt",
+    "capabilities": [
+      "text_generation",
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.塔猫chatppt",
+    "capabilities": [
+      "text_generation",
+      "image_generation",
+      "function_calling",
+      "streaming"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.gamma",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.slidesgo",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.beautiful-ai",
+    "capabilities": [
+      "text_generation",
+      "image_generation"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.canva可画",
+    "capabilities": [
+      "text_generation",
+      "image_generation",
+      "vision"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.堆友ai设计",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.稿定ai设计",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.xfun-aigc智能包装设计平台",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.墨刀ai",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.志设ai",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.pixso-ai生成设计稿",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "audio_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "image",
+      "text",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.星流ai",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "vision",
+      "code_generation",
+      "function_calling",
+      "multimodal"
+    ],
+    "modalities": [
+      "image",
+      "text",
+      "code",
+      "audio",
+      "video"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.易企秀-小易ai",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.pagepop",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.呜哩",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.mopng设计助手",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "function_calling",
+      "streaming"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.包图-aigc设计素材",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.uxbot",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "multimodal",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text",
+      "audio",
+      "video"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.refore-网页转设计",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.稿定ai",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.美图设计室",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "vision",
+      "audio_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "image",
+      "text",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.创客贴",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.picdoc",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "function_calling",
+      "streaming"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.lovart",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "vision",
+      "code_generation",
+      "function_calling",
+      "multimodal"
+    ],
+    "modalities": [
+      "image",
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.千图网",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.智绘设计",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.摹客",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "audio_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "image",
+      "text",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.mastergo-ai",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "audio_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "image",
+      "text",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.即时设计ai",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.暗壳ai",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.千鹿ai",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "function_calling",
+      "streaming"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.adobe-firefly",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.canva-ai",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.microsoft-designer",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.logoai",
+    "capabilities": [
+      "image_generation",
+      "text_generation",
+      "vision"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.looka",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.stockimg-ai",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.uizard",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.framer-ai",
+    "capabilities": [
+      "image_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.豆包ai助手",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.千问",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal",
+      "fine_tuning"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.豆包桌面版",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.讯飞星火",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal",
+      "audio_generation"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.腾讯元宝",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.智谱清言",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.deepseek官方入口",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.kimi",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal",
+      "fine_tuning",
+      "retrieval"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.文心一言",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.灵光ai",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.问小白",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.纳米ai助手",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.百度ai助手",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.商汤商量sensechat",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.天工ai助手",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal",
+      "retrieval"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.当贝ai",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.360智脑",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.知乎直答",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal",
+      "retrieval"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.万知",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.chatgpt",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal",
+      "fine_tuning"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.claude",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal",
+      "fine_tuning"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.gemini",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.perplexity",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal",
+      "retrieval"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.pi-ai",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal",
+      "fine_tuning"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.character-ai",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.coze",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal",
+      "code_generation"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.dify",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal",
+      "fine_tuning",
+      "code_generation"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.copilot",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal",
+      "code_generation"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.文心app",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.谱乐ai",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.suno苏诺中文版",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.音述ai",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.ohyesai-音乐mv生成",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.即梦ai音乐生成",
+    "capabilities": [
+      "audio_generation",
+      "text_generation",
+      "image_generation",
+      "vision",
+      "multimodal"
+    ],
+    "modalities": [
+      "audio",
+      "text",
+      "image"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.mureka-ai",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.aiwave",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.抖音音乐",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.openmusic-ai",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.音潮",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.noema-lab创作实验室",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.网易-天音",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.海绵音乐",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.suno",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.aiva",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.udio",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.mubert",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.boomy",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.soundraw",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.songr",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.天工skymusic",
+    "capabilities": [
+      "audio_generation",
+      "text_generation",
+      "retrieval",
+      "streaming"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.天谱乐",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.歌歌ai",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.网易云音乐-x-studio",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.ace-studio",
+    "capabilities": [
+      "audio_generation",
+      "text_generation"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.讯飞-听见",
+    "capabilities": [
+      "audio_generation",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.扣子",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.flowith-agent",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.爱派aipy",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.星辰agent",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.fastgpt",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.百度伐谋",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.01agent",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.agentpolis-agent城邦",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.refly-ai",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.超级麦吉-super-magic",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.智慧芽eureka",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.腾讯元器",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.钉钉ai助理",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.百宝箱",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.dify",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.文心智能体平台",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling",
+      "streaming"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.飞书智能伙伴",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "audio_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.实在智能",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.coze",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.zapier",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.make",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.n8n",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.autogen",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.langgraph",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling",
+      "streaming"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.langflow",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "function_calling",
+      "streaming"
+    ],
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.秒哒-openclaw",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming",
+      "function_calling",
+      "retrieval"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.trae编程",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.码上飞-ai生成小程序",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.泰山ai-智能开发平台",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.nocode",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.codingsee-ai伴学",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.腾讯云ai代码助手",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.驭码coderider",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.图像大厨imgcook",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.github-copilot",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming",
+      "function_calling",
+      "fine_tuning"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.codewhisperer",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming",
+      "audio_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "code",
+      "text",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.通义灵码",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.bolt-new",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.plandex",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.tabby",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.fitten-code",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming",
+      "function_calling",
+      "fine_tuning"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.cursor",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.windsurf",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.replit",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.vercel-v0",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.codeium",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.amazon-q-developer",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.jetbrains-ai",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.小浣熊ai助手",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming",
+      "function_calling"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.howone-ai",
+    "capabilities": [
+      "code_generation",
+      "text_generation",
+      "streaming"
+    ],
+    "modalities": [
+      "code",
+      "text"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.openai-api",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.火山方舟",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.阿里云百炼",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.千帆大模型平台",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "code_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.deepseek-api",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.kimi-api",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal",
+      "vision"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio",
+      "video"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.minimax-api",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.智谱bigmodel",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.讯飞星火api",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "audio_generation",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.腾讯混元api",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.google-gemini-api",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.anthropic-api",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.groq-api",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.together-ai",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.replicate",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.cohere",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.aws-bedrock",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.azure-openai",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  },
+  {
+    "toolRid": "ri.aigc.main.object.aigc-tool.硅基流动",
+    "capabilities": [
+      "text_generation",
+      "function_calling",
+      "streaming",
+      "fine_tuning",
+      "multimodal"
+    ],
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio"
+    ],
+    "source": "auto"
+  }
+]

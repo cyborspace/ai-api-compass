@@ -1,0 +1,12 @@
+{
+  "framework": "nextjs",
+  "regions": ["hkg1"],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=300, stale-while-revalidate=60" }
+      ]
+    }
+  ]
+}

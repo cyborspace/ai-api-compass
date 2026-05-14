@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Palantir Dark Theme */
+    --background: 0 0% 5%;
+    --foreground: 0 0% 96%;
+    --card: 240 4% 11%;
+    --card-foreground: 0 0% 96%;
+    --popover: 240 4% 11%;
+    --popover-foreground: 0 0% 96%;
+    --primary: 4 100% 59%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 4% 14%;
+    --secondary-foreground: 0 0% 96%;
+    --muted: 240 4% 17%;
+    --muted-foreground: 240 3% 39%;
+    --accent: 4 100% 59%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 4 90% 58%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 3% 17%;
+    --input: 240 3% 17%;
+    --ring: 4 100% 59%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-[#0c0c0e] text-[#f5f5f7] font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2c2c2e;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a3a3c;
+  }
+
+  /* Selection */
+  ::selection {
+    background: rgba(255, 59, 48, 0.3);
+    color: #f5f5f7;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-[#1c1c1e]/80 backdrop-blur-xl border border-[#2c2c2e];
+  }
+
+  .data-cell {
+    @apply px-4 py-3 text-sm text-[#f5f5f7] border-b border-[#2c2c2e];
+  }
+
+  .data-header {
+    @apply px-4 py-3 text-xs font-medium text-[#636366] uppercase tracking-wider border-b border-[#2c2c2e];
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Particle Animation for Interactive Like Button */
+@keyframes particle-fly {
+  0% {
+    opacity: 1;
+    transform: translate(calc(-50% + var(--x-offset, 0px)), calc(-50% + var(--y-offset, 0px))) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(calc(-50% + var(--x-offset, 0px)), calc(-50% - 60px)) scale(0.3);
+  }
+}
+
+.animate-particle {
+  --x-offset: 0px;
+  --y-offset: 0px;
+  animation: particle-fly 0.6s ease-out forwards;
+}
