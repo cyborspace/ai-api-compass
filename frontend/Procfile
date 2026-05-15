@@ -1,0 +1,1 @@
+web: npx serve@latest dist -p $PORT
