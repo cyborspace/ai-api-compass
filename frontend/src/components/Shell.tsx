@@ -242,4 +242,44 @@ export function Shell({ children }: { children: React.ReactNode }) {
       </aside>
 
       {/* Mobile Header */}
-      <header className="lg:hidden fixed top
+      <header className="lg:hidden fixed top-0 left-0 right-0 h-14 bg-[#141416] border-b border-[#2c2c2e] z-40 flex items-center px-4">
+        <button
+          onClick={() => setMobileOpen(!mobileOpen)}
+          className="p-2 -ml-2 text-[#8e8e93]"
+        >
+          {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+        </button>
+        <Link href="/" className="ml-3 flex items-center gap-2">
+          <div className="w-7 h-7 rounded-md bg-[#ff3b30] flex items-center justify-center">
+            <Database className="w-3.5 h-3.5 text-white" />
+          </div>
+          <span className="text-sm font-semibold">AI Compass</span>
+        </Link>
+      </header>
+
+      {/* Mobile Menu */}
+      {mobileOpen && (
+        <div className="lg:hidden fixed inset-0 z-30 bg-[#0c0c0e]/95 pt-14">
+          <nav className="p-4 space-y-1">
+            {navItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setMobileOpen(false)}
+                className="flex items-center gap-3 px-4 py-3 rounded-lg text-sm text-[#8e8e93] hover:text-[#f5f5f7] hover:bg-[#1c1c1e]"
+              >
+                <item.icon className="w-5 h-5" />
+                {item.label}
+              </Link>
+            ))}
+          </nav>
+        </div>
+      )}
+
+      {/* Main Content */}
+      <main className="flex-1 lg:ml-56 pt-14 lg:pt-0 min-h-screen">
+        {children}
+      </main>
+    </div>
+  );
+}

@@ -72,3 +72,4 @@ frontend copy/
 
 # Trae
 .trae/
+.gstack/

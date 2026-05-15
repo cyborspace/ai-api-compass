@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { LayoutGrid, List, Table2 } from "lucide-react";
+import { LayoutGrid, List, Table2, ChevronDown, ChevronUp } from "lucide-react";
 import { useToolsList, useHomeRecommendations } from "@/hooks";
 import { useAppStore } from "@/stores/app.store";
 import { SearchBar } from "@/components/SearchBar";
@@ -9,6 +9,9 @@ import { ToolCard } from "@/components/ToolCard";
 import { FilterPanel } from "@/components/FilterPanel";
 import { LoadingState } from "@/components/LoadingState";
 import { ErrorState } from "@/components/ErrorState";
+import { useState, useEffect } from "react";
+
+const RECOMMENDATIONS_COLLAPSED_KEY = "recommendations-collapsed";
 
 export default function HomeContent() {
   const searchParams = useSearchParams();
@@ -17,6 +20,23 @@ export default function HomeContent() {
   const layout = useAppStore((s) => s.view.layout);
   const setLayout = useAppStore((s) => s.setLayout);
   const filter = useAppStore((s) => s.filter);
+
+  const [isRecommendationsCollapsed, setIsRecommendationsCollapsed] = useState(false);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+    const saved = localStorage.getItem(RECOMMENDATIONS_COLLAPSED_KEY);
+    if (saved !== null) {
+      setIsRecommendationsCollapsed(saved === "true");
+    }
+  }, []);
+
+  const toggleRecommendations = () => {
+    const newState = !isRecommendationsCollapsed;
+    setIsRecommendationsCollapsed(newState);
+    localStorage.setItem(RECOMMENDATIONS_COLLAPSED_KEY, String(newState));
+  };
 
   const {
     data: toolsData,
@@ -39,11 +59,14 @@ export default function HomeContent() {
     error: recsError,
   } = useHomeRecommendations({ limit: 6 });
 
-  // Backend handles filtering and sorting via API params
   const filteredTools = toolsData?.data || [];
 
   const isLoading = toolsLoading || recsLoading;
   const hasError = toolsError || recsError;
+
+  const showRecommendations = recommendations?.items && 
+    recommendations.items.length > 0 && 
+    !searchQuery;
 
   return (
     <div className="p-4 lg:p-8 max-w-[1600px] mx-auto">
@@ -59,16 +82,31 @@ export default function HomeContent() {
       </div>
 
       {/* Recommendations */}
-      {recommendations?.items && recommendations.items.length > 0 && !searchQuery && (
+      {showRecommendations && (
         <div className="mb-8">
-          <h2 className="text-sm font-medium text-[#636366] uppercase tracking-wider mb-4">
-            推荐工具
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {recommendations.items.map((item) => (
-              <ToolCard key={item.tool.slug} tool={item.tool} />
-            ))}
-          </div>
+          <button
+            onClick={toggleRecommendations}
+            className="flex items-center gap-2 w-full group mb-4"
+          >
+            <h2 className="text-sm font-medium text-[#636366] uppercase tracking-wider">
+              推荐工具
+            </h2>
+            <span className="text-[#636366] group-hover:text-[#8e8e93] transition-colors">
+              {isClient && isRecommendationsCollapsed ? (
+                <ChevronDown className="w-4 h-4" />
+              ) : (
+                <ChevronUp className="w-4 h-4" />
+              )}
+            </span>
+          </button>
+          
+          {(!isClient || !isRecommendationsCollapsed) && (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 transition-all">
+              {recommendations.items.map((item) => (
+                <ToolCard key={item.tool.slug} tool={item.tool} />
+              ))}
+            </div>
+          )}
         </div>
       )}
 
