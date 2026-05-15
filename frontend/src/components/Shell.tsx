@@ -16,12 +16,36 @@ import {
   Menu,
   X,
   BookOpen,
+  GripVertical,
 } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import {
+  DndContext,
+  closestCenter,
+  KeyboardSensor,
+  PointerSensor,
+  useSensor,
+  useSensors,
+  DragEndEvent,
+} from "@dnd-kit/core";
+import {
+  arrayMove,
+  SortableContext,
+  sortableKeyboardCoordinates,
+  useSortable,
+  verticalListSortingStrategy,
+} from "@dnd-kit/sortable";
+import { CSS } from "@dnd-kit/utilities";
 
-const NAV_ITEMS = [
-  { href: "/", label: "工具库", icon: Database },
+interface NavItem {
+  href: string;
+  label: string;
+  icon: React.ElementType;
+}
+
+const DEFAULT_NAV_ITEMS: NavItem[] = [
   { href: "/rankings", label: "排行榜", icon: Trophy },
+  { href: "/", label: "工具库", icon: Database },
   { href: "/compare", label: "对比", icon: BarChart3 },
   { href: "/categories", label: "分类", icon: Hexagon },
   { href: "/favorites", label: "收藏", icon: Star },
@@ -33,9 +57,122 @@ const NAV_ITEMS = [
   { href: "/chapters", label: "学习章节", icon: BookOpen },
 ];
 
+const STORAGE_KEY = "nav-items-order";
+
+function SortableNavItem({
+  item,
+  active,
+  onClick,
+}: {
+  item: NavItem;
+  active: boolean;
+  onClick?: () => void;
+}) {
+  const {
+    attributes,
+    listeners,
+    setNodeRef,
+    transform,
+    transition,
+    isDragging,
+  } = useSortable({ id: item.href });
+
+  const style = {
+    transform: CSS.Transform.toString(transform),
+    transition,
+    zIndex: isDragging ? 50 : undefined,
+  };
+
+  return (
+    <div
+      ref={setNodeRef}
+      style={style}
+      className={`flex items-center gap-1 rounded-lg text-sm transition-all group ${
+        active
+          ? "bg-[#ff3b30]/10 text-[#ff3b30] font-medium"
+          : "text-[#8e8e93] hover:text-[#f5f5f7] hover:bg-[#1c1c1e]"
+      } ${isDragging ? "opacity-50" : ""}`}
+    >
+      <Link
+        href={item.href}
+        onClick={onClick}
+        className="flex items-center gap-3 px-3 py-2 flex-1"
+      >
+        <item.icon className="w-4 h-4" />
+        {item.label}
+      </Link>
+      <button
+        {...attributes}
+        {...listeners}
+        className="p-2 cursor-grab active:cursor-grabbing opacity-0 group-hover:opacity-100 transition-opacity hover:text-[#f5f5f7]"
+        title="拖动排序"
+      >
+        <GripVertical className="w-3 h-3" />
+      </button>
+    </div>
+  );
+}
+
 export function Shell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [navItems, setNavItems] = useState<NavItem[]>(DEFAULT_NAV_ITEMS);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        const savedOrder: string[] = JSON.parse(saved);
+        const orderedItems: NavItem[] = [];
+        const remainingItems = [...DEFAULT_NAV_ITEMS];
+
+        savedOrder.forEach((href) => {
+          const item = remainingItems.find((i) => i.href === href);
+          if (item) {
+            orderedItems.push(item);
+            const index = remainingItems.indexOf(item);
+            remainingItems.splice(index, 1);
+          }
+        });
+
+        setNavItems([...orderedItems, ...remainingItems]);
+      } catch {
+        setNavItems(DEFAULT_NAV_ITEMS);
+      }
+    }
+  }, []);
+
+  const sensors = useSensors(
+    useSensor(PointerSensor, {
+      activationConstraint: {
+        distance: 8,
+      },
+    }),
+    useSensor(KeyboardSensor, {
+      coordinateGetter: sortableKeyboardCoordinates,
+    })
+  );
+
+  const handleDragEnd = (event: DragEndEvent) => {
+    const { active, over } = event;
+
+    if (over && active.id !== over.id) {
+      setNavItems((items) => {
+        const oldIndex = items.findIndex((item) => item.href === active.id);
+        const newIndex = items.findIndex((item) => item.href === over.id);
+        const newItems = arrayMove(items, oldIndex, newIndex);
+
+        localStorage.setItem(
+          STORAGE_KEY,
+          JSON.stringify(newItems.map((item) => item.href))
+        );
+
+        return newItems;
+      });
+    }
+  };
 
   return (
     <div className="min-h-screen bg-[#0c0c0e] text-[#f5f5f7] flex">
@@ -54,23 +191,47 @@ export function Shell({ children }: { children: React.ReactNode }) {
         </div>
 
         <nav className="flex-1 p-3 space-y-1">
-          {NAV_ITEMS.map((item) => {
-            const active = pathname === item.href || pathname.startsWith(`${item.href}/`);
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={`flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-all ${
-                  active
-                    ? "bg-[#ff3b30]/10 text-[#ff3b30] font-medium"
-                    : "text-[#8e8e93] hover:text-[#f5f5f7] hover:bg-[#1c1c1e]"
-                }`}
+          {isClient ? (
+            <DndContext
+              sensors={sensors}
+              collisionDetection={closestCenter}
+              onDragEnd={handleDragEnd}
+            >
+              <SortableContext
+                items={navItems.map((item) => item.href)}
+                strategy={verticalListSortingStrategy}
               >
-                <item.icon className="w-4 h-4" />
-                {item.label}
-              </Link>
-            );
-          })}
+                {navItems.map((item) => {
+                  const active = pathname === item.href || pathname.startsWith(`${item.href}/`);
+                  return (
+                    <SortableNavItem
+                      key={item.href}
+                      item={item}
+                      active={active}
+                    />
+                  );
+                })}
+              </SortableContext>
+            </DndContext>
+          ) : (
+            navItems.map((item) => {
+              const active = pathname === item.href || pathname.startsWith(`${item.href}/`);
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-all ${
+                    active
+                      ? "bg-[#ff3b30]/10 text-[#ff3b30] font-medium"
+                      : "text-[#8e8e93] hover:text-[#f5f5f7] hover:bg-[#1c1c1e]"
+                  }`}
+                >
+                  <item.icon className="w-4 h-4" />
+                  {item.label}
+                </Link>
+              );
+            })
+          )}
         </nav>
 
         <div className="p-4 border-t border-[#2c2c2e]">
@@ -81,44 +242,4 @@ export function Shell({ children }: { children: React.ReactNode }) {
       </aside>
 
       {/* Mobile Header */}
-      <header className="lg:hidden fixed top-0 left-0 right-0 h-14 bg-[#141416] border-b border-[#2c2c2e] z-40 flex items-center px-4">
-        <button
-          onClick={() => setMobileOpen(!mobileOpen)}
-          className="p-2 -ml-2 text-[#8e8e93]"
-        >
-          {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-        </button>
-        <Link href="/" className="ml-3 flex items-center gap-2">
-          <div className="w-7 h-7 rounded-md bg-[#ff3b30] flex items-center justify-center">
-            <Database className="w-3.5 h-3.5 text-white" />
-          </div>
-          <span className="text-sm font-semibold">AI Compass</span>
-        </Link>
-      </header>
-
-      {/* Mobile Menu */}
-      {mobileOpen && (
-        <div className="lg:hidden fixed inset-0 z-30 bg-[#0c0c0e]/95 pt-14">
-          <nav className="p-4 space-y-1">
-            {NAV_ITEMS.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={() => setMobileOpen(false)}
-                className="flex items-center gap-3 px-4 py-3 rounded-lg text-sm text-[#8e8e93] hover:text-[#f5f5f7] hover:bg-[#1c1c1e]"
-              >
-                <item.icon className="w-5 h-5" />
-                {item.label}
-              </Link>
-            ))}
-          </nav>
-        </div>
-      )}
-
-      {/* Main Content */}
-      <main className="flex-1 lg:ml-56 pt-14 lg:pt-0 min-h-screen">
-        {children}
-      </main>
-    </div>
-  );
-}
+      <header className="lg:hidden fixed top
